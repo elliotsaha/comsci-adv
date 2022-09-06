@@ -9,6 +9,7 @@ struct GradeBook {
     grades: Vec<u16>
 }
 
+// GradeBook methods
 trait GradeOperations {
     fn gen_grades() -> Vec<u16>; // static function used in randomize() and new()
     fn new() -> GradeBook;
@@ -22,6 +23,7 @@ trait GradeOperations {
 }
 
 impl GradeOperations for GradeBook {
+    // generates 35 random values from range 0-100
     fn gen_grades() -> Vec<u16> {
         let mut rng = rand::thread_rng();
 
@@ -34,10 +36,12 @@ impl GradeOperations for GradeBook {
         rand_grades
     }
 
+    // used as initializer for class (runs with constructor setting grades to gen_grades())
     fn new() -> GradeBook {
         GradeBook { grades: Self::gen_grades() }
     }
 
+    // shows all values in grades array
     fn show_all(&self) {
         println!("ALL GRADES");
         for i in &self.grades {
@@ -45,6 +49,7 @@ impl GradeOperations for GradeBook {
         }
     }
 
+    // shows all values that are equal to or above 80 in grades array
     fn honours(&self) {
         println!("HONOURS");
         let mut count = 0;
@@ -57,20 +62,24 @@ impl GradeOperations for GradeBook {
         println!("Number of Honours: {}", count);
     }
 
+    // gets maximum value from grades array
     fn max(&self) -> &u16 {
         self.grades.iter().max().unwrap()
     }
 
+    // gets minimum value from grades array
     fn min(&self) -> &u16 {
         self.grades.iter().min().unwrap()
     }
 
+    // gets mean value from grades array
     fn avg(&self) -> u8 {
         let sum: u16 = self.grades.iter().sum();
         let mean: f32 = sum as f32 / self.grades.len() as f32;
         mean.round() as u8
     }
 
+    // prints general stats about grades array
     fn stats(&self) {
         println!("STATS");
         println!("Highest Grade: {}%", self.max());
@@ -78,6 +87,7 @@ impl GradeOperations for GradeBook {
         println!("Average Grade: {}%", self.avg());
     }
 
+    // calls gen_grades() to randomize grades array
     fn randomize(&mut self) {
         let new_grades = Self::gen_grades();
         self.grades = new_grades;
@@ -114,8 +124,10 @@ MAIN MENU
 }
 
 fn main() {
+    // initialize GradeBook
     let mut grade_book = GradeBook::new();
 
+    // infinite loop for display_menu (option 5 in display_menu will close program entirely)
     loop {
         display_menu(&mut grade_book);
     }
