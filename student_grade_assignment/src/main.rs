@@ -113,7 +113,7 @@ MAIN MENU
     println!("\n");
     // remove trailing whitespace from input
     // (input from keyboard will always contain trailing newline character)
-    match input.trim_end() {
+    match input.trim() {
         "1" => grade_book.show_all(),
         "2" => grade_book.honours(),
         "3" => grade_book.stats(),
