@@ -30,7 +30,7 @@ struct ContactInfo {
 trait ContactOperations {
     fn post_to_file(&self);
     fn display_names(&self);
-    fn new() -> Contacts;
+    fn new() -> Self;
     fn new_contact(&mut self);
     fn search_contacts(&self);
     fn edit_contact(&mut self);

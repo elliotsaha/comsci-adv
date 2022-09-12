@@ -77,3 +77,4 @@ fn main() {
     println!("GET METHOD: (AFTER SWAP): {:?}", new_list.get());
     println!("INDEX_OF_MIN METHOD: {}", new_list.index_of_min());
 }
+

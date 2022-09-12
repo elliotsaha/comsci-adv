@@ -12,7 +12,7 @@ struct GradeBook {
 // GradeBook methods
 trait GradeOperations {
     fn gen_grades() -> Vec<u16>; // static function used in randomize() and new()
-    fn new() -> GradeBook;
+    fn new() -> Self;
     fn show_all(&self);
     fn honours(&self);
     fn max(&self) -> &u16;
