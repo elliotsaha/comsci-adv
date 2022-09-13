@@ -2,7 +2,7 @@
 use std::process;
 // import classes
 use crate::contact::{ Contacts, ContactOperations };
-// get user input helper
+// get user input helper function
 use crate::utils::user_input;
 
 pub fn display_menu(contacts: &mut Contacts) {
