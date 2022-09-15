@@ -4,16 +4,19 @@ fn binary_search<T>(list: &[T], target: T) -> isize
 where T: std::cmp::PartialOrd + Copy {
     let mut start = 0;
     let mut end = list.len() - 1;
-    let middle = ((end / 2) as f32).floor() as usize;
-
-    while start < end {
-        if list[middle] == target {
+    
+    // search all possible candidates for target in vector
+    while start <= end {
+        // get middle index of vector
+        let middle = (((start + end) / 2) as f32).floor() as usize;
+        if target == list[middle] {
             return middle as isize;
-        }
-        if list[middle] > target {
-            end = middle;
+        } else if target < list[middle] {
+            // search left half of vector
+            end = middle - 1;
         } else {
-            start = middle;
+            // search right half of vector
+            start = middle + 1;
         }
     }
     // return -1 if not found
@@ -21,6 +24,6 @@ where T: std::cmp::PartialOrd + Copy {
 }
 
 fn main() {
-    let list  = vec![1,9,20,40,100,110,300,320];
-    println!("{}", binary_search(&list, 300));
+    let list  = vec!["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+    println!("{}", binary_search(&list, "m"));
 }
