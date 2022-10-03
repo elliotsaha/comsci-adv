@@ -25,15 +25,18 @@ impl SearchOperations for Search {
         let split = Self::generate_vec(filename);
 
         let target = user_input("Please enter a word").to_lowercase();
+        
+        let mut found = false;
 
         // loop through vector iteratively
-        linear_search(split, |idx, i| {
-            // check if target element is equal to iteration
-            if i.to_lowercase() == target {
+        linear_search(split, &target, |idx| {
                 print!("{} IS in vector at index {}", target, idx);
-            }
-        });
-        print!("{} is NOT found in vector", target);
+                found = true;
+            });
+
+        if !found {
+            print!("{} is NOT found in vector", target);
+        }
     }
     fn input_binary(filename: &str) {
         let target = user_input("Please enter a word").to_lowercase();
@@ -41,29 +44,14 @@ impl SearchOperations for Search {
         println!("Linear Search starting...");
 
         let split = Self::generate_vec(filename);
-
-        let mut start = 0;
-        let mut end = split.len() - 1;
         
-        // search all possible candidates for target in vector
-        while start <= end {
-            // get middle index of vector
-            let middle = (((start + end) / 2) as f32).floor() as usize;
-            match target.cmp(&split[middle].to_lowercase()) {
-                Ordering::Equal => {
-                    print!("{} IS in vector as index {}", target, middle);
-                    return;
-                }
-                Ordering::Less => {
-                    // search left half of vector
-                    end = middle - 1;
-                }
-                Ordering::Greater => {
-                    // search right half of vector
-                    start = middle + 1;
-                }
-            }
-        }
+        let mut found = false;
+
+        binary_search(split, &target, |idx| {
+            print!("{} IS in vector at index {}", target, idx);
+            found = true;
+        });
+
         print!("{} is NOT in vector", target);
     }
     

@@ -26,13 +26,16 @@ pub fn user_input(title: &str) -> String {
     input.trim().to_owned()
 }
 
-pub fn linear_search<F: Fn(usize, &str)>(vector: Vec<String>, f: F) {
+pub fn linear_search<F: FnMut(usize)>(vector: Vec<String>, target: &str, mut f: F) {
    for (idx, i) in vector.iter().enumerate() {
-       f(idx, i);
+       if i.to_lowercase() == target {
+           f(idx);
+           return;
+       }
    } 
 }
 
-pub fn binary_search(vector:Vec<&str>, target: &str, f: fn(usize)) {
+pub fn binary_search<F: FnMut(usize)>(vector:Vec<String>, target: &str, f: F) {
     let mut start = 0;
     let mut end = vector.len() - 1;
     
