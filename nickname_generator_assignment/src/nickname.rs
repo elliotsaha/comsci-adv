@@ -22,7 +22,7 @@ pub trait NicknameOperations {
 impl NicknameOperations for NicknameGenerator {
     // used as initializer for class (runs with constructor setting first_name, last_name, and
     // default nicknames )
-    fn new() -> NicknameGenerator {
+    fn new() -> Self {
         // transform each &str into String for nickname mutability
         let default_nicknames = vec!["The Crusher", "The Warrior", "The Hacker", "The Bulldog", "The Programmer"].iter().map(|&nick| nick.to_owned()).collect();
         NicknameGenerator { first_name: String::from(""), last_name: String::from(""), nicknames: default_nicknames }

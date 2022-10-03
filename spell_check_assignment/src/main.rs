@@ -1,11 +1,9 @@
-use std::fs;
+use crate::menu::display_menu;
 
-fn file_to_vec(filename: &str) -> Vec<String> {
-    let file_to_string = fs::read_to_string(filename).unwrap();
-    file_to_string.split_whitespace().map(|x| x.to_owned()).collect()
-
-}
+pub mod menu;
+pub mod utils;
+pub mod search;
 
 fn main() {
-    println!("{:?}", file_to_vec("data-files/dictionary.txt"));
+    display_menu();
 }
