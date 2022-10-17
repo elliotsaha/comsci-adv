@@ -14,7 +14,7 @@ fn selection_sort<T: Ord>(arr: &mut [T]) {
 }
 
 fn main() {
-    let mut numbers = [4, 65, 2, -31, 0, 99, 2, 83, 782, 1];
+    let mut numbers = [9, 2, 5, 1, -4, 6, -7];
     selection_sort(&mut numbers);
-    println!("{:?}", numbers);
+    assert_eq!(numbers, [-7, -4, 1, 2, 5, 6, 9]);
 }
