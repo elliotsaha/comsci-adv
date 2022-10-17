@@ -11,7 +11,9 @@ pub fn file_to_vec(filename: &str) -> Vec<String> {
     file.read_to_string(&mut contents).expect("Unable to read the file");
     // split string by regex pattern and transform into vector
     let re = Regex::new(r"\s+").unwrap();
-    let split_vec = re.split(&contents).map(String::from).collect();
+    // trim leading and trailing whitespaces and split by regex
+    let split_vec = re.split(contents.trim()).map(String::from).collect();
+
     split_vec 
 }
 
@@ -26,28 +28,35 @@ pub fn user_input(title: &str) -> String {
     input.trim().to_owned()
 }
 
-pub fn linear_search<F: FnMut(usize)>(vector: Vec<String>, target: &str, mut f: F) {
-   for (idx, i) in vector.iter().enumerate() {
-       if i.to_lowercase() == target {
-           f(idx);
-           return;
+// capitalizes first letter in a string
+pub fn capitalize(s: &str) -> String {
+    s[0..1].to_uppercase() + &s[1..]
+}
+
+pub fn linear_search<F: FnMut(usize)>(array: &[String], target: &str, mut f: F) { 
+    for (idx, i) in array.iter().enumerate() {
+       if i == target {
+           return f(idx);
        }
    } 
 }
 
-pub fn binary_search<F: FnMut(usize)>(vector:Vec<String>, target: &str, f: F) {
+pub fn binary_search<F: FnMut(usize)>(vector: &[String], target: &str, mut f: F) {
     let mut start = 0;
     let mut end = vector.len() - 1;
     
     // search all possible candidates for target in vector
     while start <= end {
         // get middle index of vector
-        let middle = (((start + end) / 2) as f32).floor() as usize;
-        match target.cmp(&vector[middle].to_lowercase()) {
+        let middle = (start + end) / 2;
+
+        match target.cmp(&vector[middle]) {
             Ordering::Equal => {
-                f(middle);
+                return f(middle);
             }
             Ordering::Less => {
+                // make sure index cannot be less than 0
+                if middle == 0 { return };
                 // search left half of vector
                 end = middle - 1;
             }

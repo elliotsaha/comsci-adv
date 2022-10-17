@@ -1,7 +1,7 @@
 // process module used for exiting program
 use std::process;
 // import classes
-use crate::search::{ Search, SearchOperations };
+use crate::spellcheck::{ SpellChecker, SpellCheckerOperations };
 // get user input helper function
 use crate::utils::user_input;
 
@@ -16,10 +16,10 @@ MAIN MENU
 "#);
 
     match input.as_str() {
-        "1" => Search::input_linear("dictionary"),
-        "2" => Search::input_binary("dictionary"),
-        "3" => Search::input_linear("AliceInWonderLand"),
-        "4" => Search::input_binary("AliceInWonderLand"),
+        "1" => SpellChecker::dictionary("linear"),
+        "2" => SpellChecker::dictionary("binary"),
+        "3" => SpellChecker::story("linear"),
+        "4" => SpellChecker::story("binary"),
         "5" => process::exit(1),
         _ => println!("Invalid choice"),
     }

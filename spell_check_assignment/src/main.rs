@@ -2,8 +2,10 @@ use crate::menu::display_menu;
 
 pub mod menu;
 pub mod utils;
-pub mod search;
+pub mod spellcheck;
 
 fn main() {
-    display_menu();
+    loop {
+        display_menu();
+    }
 }
