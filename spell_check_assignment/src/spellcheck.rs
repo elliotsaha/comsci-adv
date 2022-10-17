@@ -1,32 +1,33 @@
+// utility function imports
 use crate::utils::{ file_to_vec, capitalize, user_input, linear_search, binary_search };
+// get time duration of function
+use std::time::Instant;
 
 pub struct SpellChecker {}
 
 pub trait SpellCheckerOperations {
-    fn generate_vec(filename: &str) -> Vec<String>;
+    // spell check a word
     fn dictionary(search_method: &str);
+    // spell check story
     fn story(search_method: &str);
 }
 
 impl SpellCheckerOperations for SpellChecker {
-    fn generate_vec(filename: &str) -> Vec<String> {
-        // transform string into split vector
-        let file_type = "txt";
-        let dir = "data-files";
-        file_to_vec(&format!("{dir}/{filename}.{file_type}"))
-    }
-
     fn dictionary(search_method: &str) {
         println!("{} Search starting...", capitalize(search_method));
-
-        let dictionary = Self::generate_vec("dictionary");
-
+        
+        let dictionary = file_to_vec("dictionary");
+        
         let target = user_input("Please enter a word").to_lowercase();
         
         let mut found = false;
         
+        // start timer
+        let now = Instant::now();
+
         let callback = |idx: usize| {
-            print!("{} is IN dictionary at position {}", target, idx);
+            // end timer if target is found
+            print!("{target} is IN dictionary at position {idx} ({} seconds)", now.elapsed().as_secs_f64());
             found = true;
         };
 
@@ -37,20 +38,27 @@ impl SpellCheckerOperations for SpellChecker {
         }
 
         if !found {
-            print!("{} is NOT IN dictionary at position", target);
+            // alternative end timer if target is not found
+            print!("{target} is NOT IN dictionary at position ({} seconds)", now.elapsed().as_secs_f64());
         }
     }
 
     fn story(search_method: &str) {
         println!("{} Search starting...", capitalize(search_method));
 
-        let dictionary = Self::generate_vec("dictionary");
+        let dictionary = file_to_vec("dictionary");
 
-        let story = Self::generate_vec("alice");
+        let story = file_to_vec("alice");
         
         let mut not_found_count = story.len();
 
+        // start timer
+        let now = Instant::now();
+
         match search_method {
+            // decrement not_found_count when word is found in dictionary
+            // NOTE: cannot create a closure out of scope because closure needs to be copied
+            // on every iteration
             "linear" => {
                 for word in &story {
                     linear_search(&dictionary, &word.to_lowercase(), |_| not_found_count -= 1);
@@ -64,6 +72,7 @@ impl SpellCheckerOperations for SpellChecker {
             _ => panic!("Invalid internal method used")
         }
 
-        print!("Number of words not found in dictionary {}", not_found_count);
+        // end timer
+        print!("Number of words not found in dictionary: {not_found_count} ({} seconds)", now.elapsed().as_secs_f64());
     }
 }
