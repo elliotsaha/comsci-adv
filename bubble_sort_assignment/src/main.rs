@@ -1,6 +1,6 @@
 fn bubble_sort<T: Ord>(arr: &mut [T]) {
     // iterate through entire array
-    for i in 0..arr.len() {
+    for i in 0..arr.len() - 1 {
         let mut swapped = false;
 
         // subtracting by i to prevent unnecessary checks
