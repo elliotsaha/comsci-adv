@@ -1,5 +1,4 @@
 fn selection_sort<T: Ord>(arr: &mut [T]) {
-
    for i in 0..arr.len() - 1 {
        // search for minimum
        let mut min = i;
