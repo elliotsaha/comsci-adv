@@ -3,7 +3,6 @@ use crate::utils::file_to_vec;
 // get time duration of function
 use std::time::Instant;
 
-
 pub struct FileSorter {}
 
 pub trait SortMethods {
@@ -17,10 +16,9 @@ pub trait SortMethods {
 impl SortMethods for FileSorter {
     fn bubble_sort(file: &str) -> f64 {
         let mut data = file_to_vec(file);
-        
+
         let now = Instant::now();
 
-        // iterate through entire array
         for i in 0..data.len() - 1 {
             // subtracting by i to prevent unnecessary checks
             // on values that can be guaranteed to be swapped already
@@ -36,7 +34,7 @@ impl SortMethods for FileSorter {
     }
     fn selection_sort(file: &str) -> f64 {
         let mut data = file_to_vec(file);
-        
+
         let now = Instant::now();
 
         for i in 0..data.len() - 1 {

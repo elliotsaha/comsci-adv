@@ -2,7 +2,7 @@ use regex::Regex;
 use std::fs::File;
 use std::io::prelude::*;
 
-pub fn file_to_vec(filename: &str) -> Vec<String> {
+pub fn file_to_vec(filename: &str) -> Vec<i32> {
     let file_type = "txt";
     let dir = "data-files";
     let path = &format!("{dir}/{filename}.{file_type}");
@@ -15,7 +15,10 @@ pub fn file_to_vec(filename: &str) -> Vec<String> {
     // regex pattern to seperate by spaces
     let re = Regex::new(r"\s+").unwrap();
     // trim leading and trailing whitespaces and split by regex
-    let split_vec = re.split(contents.trim()).map(String::from).collect();
+    let split_vec = re
+        .split(contents.trim())
+        .map(|x| x.parse::<i32>().unwrap()) // turn string into number
+        .collect();
 
     split_vec
 }
