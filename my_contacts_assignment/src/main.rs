@@ -1,4 +1,4 @@
-use crate::contact::{ Contacts, ContactOperations };
+use crate::contact::{ContactOperations, Contacts};
 use crate::menu::display_menu;
 
 pub mod contact;
@@ -12,4 +12,3 @@ fn main() {
         display_menu(&mut contacts);
     }
 }
-

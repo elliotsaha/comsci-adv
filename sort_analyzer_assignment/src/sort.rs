@@ -67,7 +67,6 @@ impl SortMethods for FileSorter {
 
             data[curr_pos] = curr_val;
         }
-
         now.elapsed().as_secs_f64()
     }
 }

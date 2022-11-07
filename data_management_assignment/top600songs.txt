@@ -1,0 +1,4802 @@
+[
+  {
+    "rank": 1,
+    "title": "Hey,SoulSister",
+    "artist": "Train",
+    "genre": "neomellow",
+    "year": 2010,
+    "bpm": 97
+  },
+  {
+    "rank": 2,
+    "title": "LoveTheWayYouLie",
+    "artist": "Eminem",
+    "genre": "detroithiphop",
+    "year": 2010,
+    "bpm": 87
+  },
+  {
+    "rank": 3,
+    "title": "TiKToK",
+    "artist": "Kesha",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 120
+  },
+  {
+    "rank": 4,
+    "title": "BadRomance",
+    "artist": "LadyGaga",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 119
+  },
+  {
+    "rank": 5,
+    "title": "JusttheWayYouAre",
+    "artist": "BrunoMars",
+    "genre": "pop",
+    "year": 2010,
+    "bpm": 109
+  },
+  {
+    "rank": 6,
+    "title": "Baby",
+    "artist": "JustinBieber",
+    "genre": "canadianpop",
+    "year": 2010,
+    "bpm": 65
+  },
+  {
+    "rank": 7,
+    "title": "Dynamite",
+    "artist": "TaioCruz",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 120
+  },
+  {
+    "rank": 8,
+    "title": "Secrets",
+    "artist": "OneRepublic",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 148
+  },
+  {
+    "rank": 9,
+    "title": "EmpireStateofMind(PartII)BrokenDown",
+    "artist": "AliciaKeys",
+    "genre": "hippop",
+    "year": 2010,
+    "bpm": 93
+  },
+  {
+    "rank": 10,
+    "title": "OnlyGirl(InTheWorld)",
+    "artist": "Rihanna",
+    "genre": "barbadianpop",
+    "year": 2010,
+    "bpm": 126
+  },
+  {
+    "rank": 11,
+    "title": "ClubCan'tHandleMe(feat.DavidGuetta)",
+    "artist": "FloRida",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 128
+  },
+  {
+    "rank": 12,
+    "title": "MarryYou",
+    "artist": "BrunoMars",
+    "genre": "pop",
+    "year": 2010,
+    "bpm": 145
+  },
+  {
+    "rank": 13,
+    "title": "CoolerThanMe-SingleMix",
+    "artist": "MikePosner",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 130
+  },
+  {
+    "rank": 14,
+    "title": "Telephone",
+    "artist": "LadyGaga",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 122
+  },
+  {
+    "rank": 15,
+    "title": "LikeAG6",
+    "artist": "FarEastMovement",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 125
+  },
+  {
+    "rank": 16,
+    "title": "OMG(feat.will.i.am)",
+    "artist": "Usher",
+    "genre": "atlhiphop",
+    "year": 2010,
+    "bpm": 130
+  },
+  {
+    "rank": 17,
+    "title": "EenieMeenie",
+    "artist": "SeanKingston",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 121
+  },
+  {
+    "rank": 18,
+    "title": "TheTime(DirtyBit)",
+    "artist": "TheBlackEyedPeas",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 128
+  },
+  {
+    "rank": 19,
+    "title": "Alejandro",
+    "artist": "LadyGaga",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 99
+  },
+  {
+    "rank": 20,
+    "title": "YourLoveIsMyDrug",
+    "artist": "Kesha",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 120
+  },
+  {
+    "rank": 21,
+    "title": "MeetMeHalfway",
+    "artist": "TheBlackEyedPeas",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 130
+  },
+  {
+    "rank": 22,
+    "title": "WhatayaWantfromMe",
+    "artist": "AdamLambert",
+    "genre": "australianpop",
+    "year": 2010,
+    "bpm": 186
+  },
+  {
+    "rank": 23,
+    "title": "TakeItOff",
+    "artist": "Kesha",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 125
+  },
+  {
+    "rank": 24,
+    "title": "Misery",
+    "artist": "Maroon5",
+    "genre": "pop",
+    "year": 2010,
+    "bpm": 103
+  },
+  {
+    "rank": 25,
+    "title": "AllTheRightMoves",
+    "artist": "OneRepublic",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 146
+  },
+  {
+    "rank": 26,
+    "title": "Animal",
+    "artist": "NeonTrees",
+    "genre": "indiepop",
+    "year": 2010,
+    "bpm": 148
+  },
+  {
+    "rank": 27,
+    "title": "Naturally",
+    "artist": "SelenaGomez&TheScene",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 133
+  },
+  {
+    "rank": 28,
+    "title": "ILikeIt",
+    "artist": "EnriqueIglesias",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 129
+  },
+  {
+    "rank": 29,
+    "title": "TeenageDream",
+    "artist": "KatyPerry",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 120
+  },
+  {
+    "rank": 30,
+    "title": "CaliforniaGurls",
+    "artist": "KatyPerry",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 125
+  },
+  {
+    "rank": 31,
+    "title": "3",
+    "artist": "BritneySpears",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 135
+  },
+  {
+    "rank": 32,
+    "title": "MyFirstKiss-feat.Ke$ha",
+    "artist": "3OH!3",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 138
+  },
+  {
+    "rank": 33,
+    "title": "BlahBlahBlah(feat.3OH!3)",
+    "artist": "Kesha",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 120
+  },
+  {
+    "rank": 34,
+    "title": "ImmaBe",
+    "artist": "TheBlackEyedPeas",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 92
+  },
+  {
+    "rank": 35,
+    "title": "TrySleepingwithaBrokenHeart",
+    "artist": "AliciaKeys",
+    "genre": "hippop",
+    "year": 2010,
+    "bpm": 111
+  },
+  {
+    "rank": 36,
+    "title": "SexyBitch(feat.Akon)",
+    "artist": "DavidGuetta",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 130
+  },
+  {
+    "rank": 37,
+    "title": "BoundToYou-BurlesqueOriginalMotionPictureSoundtrack",
+    "artist": "ChristinaAguilera",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 164
+  },
+  {
+    "rank": 38,
+    "title": "IfIHadYou",
+    "artist": "AdamLambert",
+    "genre": "australianpop",
+    "year": 2010,
+    "bpm": 131
+  },
+  {
+    "rank": 39,
+    "title": "RockThatBody",
+    "artist": "TheBlackEyedPeas",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 125
+  },
+  {
+    "rank": 40,
+    "title": "DogDaysAreOver",
+    "artist": "Florence+TheMachine",
+    "genre": "artpop",
+    "year": 2010,
+    "bpm": 150
+  },
+  {
+    "rank": 41,
+    "title": "Something'sGotAHoldOnMe-BurlesqueOriginalMotionPictureSoundtrack",
+    "artist": "ChristinaAguilera",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 150
+  },
+  {
+    "rank": 42,
+    "title": "Doesn'tMeanAnything",
+    "artist": "AliciaKeys",
+    "genre": "hippop",
+    "year": 2010,
+    "bpm": 104
+  },
+  {
+    "rank": 43,
+    "title": "Hard",
+    "artist": "Rihanna",
+    "genre": "barbadianpop",
+    "year": 2010,
+    "bpm": 182
+  },
+  {
+    "rank": 44,
+    "title": "Loca",
+    "artist": "Shakira",
+    "genre": "colombianpop",
+    "year": 2010,
+    "bpm": 112
+  },
+  {
+    "rank": 45,
+    "title": "YouLostMe",
+    "artist": "ChristinaAguilera",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 43
+  },
+  {
+    "rank": 46,
+    "title": "NotMyselfTonight",
+    "artist": "ChristinaAguilera",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 120
+  },
+  {
+    "rank": 47,
+    "title": "WrittenintheStars(feat.EricTurner)",
+    "artist": "TinieTempah",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 91
+  },
+  {
+    "rank": 48,
+    "title": "DJGotUsFallin'InLove(feat.Pitbull)",
+    "artist": "Usher",
+    "genre": "atlhiphop",
+    "year": 2010,
+    "bpm": 120
+  },
+  {
+    "rank": 49,
+    "title": "CastleWalls(feat.ChristinaAguilera)",
+    "artist": "T.I.",
+    "genre": "atlhiphop",
+    "year": 2010,
+    "bpm": 80
+  },
+  {
+    "rank": 50,
+    "title": "BreakYourHeart",
+    "artist": "TaioCruz",
+    "genre": "dancepop",
+    "year": 2010,
+    "bpm": 122
+  },
+  {
+    "rank": 51,
+    "title": "Hello",
+    "artist": "MartinSolveig",
+    "genre": "bigroom",
+    "year": 2010,
+    "bpm": 128
+  },
+  {
+    "rank": 52,
+    "title": "AThousandYears",
+    "artist": "ChristinaPerri",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 139
+  },
+  {
+    "rank": 53,
+    "title": "SomeoneLikeYou",
+    "artist": "Adele",
+    "genre": "britishsoul",
+    "year": 2011,
+    "bpm": 135
+  },
+  {
+    "rank": 54,
+    "title": "GiveMeEverything",
+    "artist": "Pitbull",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 129
+  },
+  {
+    "rank": 55,
+    "title": "JusttheWayYouAre",
+    "artist": "BrunoMars",
+    "genre": "pop",
+    "year": 2011,
+    "bpm": 109
+  },
+  {
+    "rank": 56,
+    "title": "RollingintheDeep",
+    "artist": "Adele",
+    "genre": "britishsoul",
+    "year": 2011,
+    "bpm": 105
+  },
+  {
+    "rank": 57,
+    "title": "RuntheWorld(Girls)",
+    "artist": "Beyoncé",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 127
+  },
+  {
+    "rank": 58,
+    "title": "MovesLikeJagger-StudioRecordingFromTheVoicePerformance",
+    "artist": "Maroon5",
+    "genre": "pop",
+    "year": 2011,
+    "bpm": 128
+  },
+  {
+    "rank": 59,
+    "title": "LoveOnTop",
+    "artist": "Beyoncé",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 94
+  },
+  {
+    "rank": 60,
+    "title": "Grenade",
+    "artist": "BrunoMars",
+    "genre": "pop",
+    "year": 2011,
+    "bpm": 110
+  },
+  {
+    "rank": 61,
+    "title": "TonightTonight",
+    "artist": "HotChelleRae",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 100
+  },
+  {
+    "rank": 62,
+    "title": "WhattheHell",
+    "artist": "AvrilLavigne",
+    "genre": "canadianpop",
+    "year": 2011,
+    "bpm": 150
+  },
+  {
+    "rank": 63,
+    "title": "BornThisWay",
+    "artist": "LadyGaga",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 124
+  },
+  {
+    "rank": 64,
+    "title": "Monster",
+    "artist": "KanyeWest",
+    "genre": "chicagorap",
+    "year": 2011,
+    "bpm": 125
+  },
+  {
+    "rank": 65,
+    "title": "MarryYou",
+    "artist": "BrunoMars",
+    "genre": "pop",
+    "year": 2011,
+    "bpm": 145
+  },
+  {
+    "rank": 66,
+    "title": "BestThingINeverHad",
+    "artist": "Beyoncé",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 99
+  },
+  {
+    "rank": 67,
+    "title": "PartyRockAnthem",
+    "artist": "LMFAO",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 130
+  },
+  {
+    "rank": 68,
+    "title": "WeRWhoWeR",
+    "artist": "Kesha",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 120
+  },
+  {
+    "rank": 69,
+    "title": "PriceTag",
+    "artist": "JessieJ",
+    "genre": "australianpop",
+    "year": 2011,
+    "bpm": 175
+  },
+  {
+    "rank": 70,
+    "title": "GoodLife",
+    "artist": "OneRepublic",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 95
+  },
+  {
+    "rank": 71,
+    "title": "JustCantGetEnough",
+    "artist": "TheBlackEyedPeas",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 94
+  },
+  {
+    "rank": 72,
+    "title": "OnTheFloor",
+    "artist": "JenniferLopez",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 130
+  },
+  {
+    "rank": 73,
+    "title": "What'sMyName?",
+    "artist": "Rihanna",
+    "genre": "barbadianpop",
+    "year": 2011,
+    "bpm": 100
+  },
+  {
+    "rank": 74,
+    "title": "Yeah3x",
+    "artist": "ChrisBrown",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 130
+  },
+  {
+    "rank": 75,
+    "title": "WithoutYou(feat.Usher)",
+    "artist": "DavidGuetta",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 128
+  },
+  {
+    "rank": 76,
+    "title": "SexyAndIKnowIt",
+    "artist": "LMFAO",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 130
+  },
+  {
+    "rank": 77,
+    "title": "TheEdgeOfGlory",
+    "artist": "LadyGaga",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 128
+  },
+  {
+    "rank": 78,
+    "title": "E.T.",
+    "artist": "KatyPerry",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 152
+  },
+  {
+    "rank": 79,
+    "title": "TilltheWorldEnds",
+    "artist": "BritneySpears",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 132
+  },
+  {
+    "rank": 80,
+    "title": "IWannaGo",
+    "artist": "BritneySpears",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 130
+  },
+  {
+    "rank": 81,
+    "title": "Blow",
+    "artist": "Kesha",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 120
+  },
+  {
+    "rank": 82,
+    "title": "YouAndI",
+    "artist": "LadyGaga",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 127
+  },
+  {
+    "rank": 83,
+    "title": "Judas",
+    "artist": "LadyGaga",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 131
+  },
+  {
+    "rank": 84,
+    "title": "Tonight(I'mFuckin'You)",
+    "artist": "EnriqueIglesias",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 126
+  },
+  {
+    "rank": 85,
+    "title": "PleaseDon'tGo",
+    "artist": "MikePosner",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 120
+  },
+  {
+    "rank": 86,
+    "title": "WeFoundLove",
+    "artist": "Rihanna",
+    "genre": "barbadianpop",
+    "year": 2011,
+    "bpm": 128
+  },
+  {
+    "rank": 87,
+    "title": "MarryTheNight",
+    "artist": "LadyGaga",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 131
+  },
+  {
+    "rank": 88,
+    "title": "1+1",
+    "artist": "Beyoncé",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 63
+  },
+  {
+    "rank": 89,
+    "title": "HoldItAgainstMe",
+    "artist": "BritneySpears",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 133
+  },
+  {
+    "rank": 90,
+    "title": "I'mIntoYou",
+    "artist": "JenniferLopez",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 84
+  },
+  {
+    "rank": 91,
+    "title": "Papi",
+    "artist": "JenniferLopez",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 120
+  },
+  {
+    "rank": 92,
+    "title": "Cheers(DrinkToThat)",
+    "artist": "Rihanna",
+    "genre": "barbadianpop",
+    "year": 2011,
+    "bpm": 80
+  },
+  {
+    "rank": 93,
+    "title": "S&MRemix",
+    "artist": "Rihanna",
+    "genre": "barbadianpop",
+    "year": 2011,
+    "bpm": 128
+  },
+  {
+    "rank": 94,
+    "title": "WrittenintheStars(feat.EricTurner)",
+    "artist": "TinieTempah",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 91
+  },
+  {
+    "rank": 95,
+    "title": "JarofHearts",
+    "artist": "ChristinaPerri",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 75
+  },
+  {
+    "rank": 96,
+    "title": "CastleWalls(feat.ChristinaAguilera)",
+    "artist": "T.I.",
+    "genre": "atlhiphop",
+    "year": 2011,
+    "bpm": 80
+  },
+  {
+    "rank": 97,
+    "title": "TurningPage",
+    "artist": "SleepingAtLast",
+    "genre": "acousticpop",
+    "year": 2011,
+    "bpm": 125
+  },
+  {
+    "rank": 98,
+    "title": "SuperBass",
+    "artist": "NickiMinaj",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 127
+  },
+  {
+    "rank": 99,
+    "title": "RaiseYourGlass",
+    "artist": "P!nk",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 122
+  },
+  {
+    "rank": 100,
+    "title": "InvadingMyMind",
+    "artist": "JenniferLopez",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 129
+  },
+  {
+    "rank": 101,
+    "title": "Moment4Life-AlbumVersion(Edited)",
+    "artist": "NickiMinaj",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 130
+  },
+  {
+    "rank": 102,
+    "title": "LastFridayNight(T.G.I.F.)",
+    "artist": "KatyPerry",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 126
+  },
+  {
+    "rank": 103,
+    "title": "Firework",
+    "artist": "KatyPerry",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 124
+  },
+  {
+    "rank": 104,
+    "title": "Muny-AlbumVersion(Edited)",
+    "artist": "NickiMinaj",
+    "genre": "dancepop",
+    "year": 2011,
+    "bpm": 98
+  },
+  {
+    "rank": 105,
+    "title": "Titanium(feat.Sia)",
+    "artist": "DavidGuetta",
+    "genre": "dancepop",
+    "year": 2012,
+    "bpm": 126
+  },
+  {
+    "rank": 106,
+    "title": "LockedOutofHeaven",
+    "artist": "BrunoMars",
+    "genre": "pop",
+    "year": 2012,
+    "bpm": 144
+  },
+  {
+    "rank": 107,
+    "title": "Paradise",
+    "artist": "Coldplay",
+    "genre": "permanentwave",
+    "year": 2012,
+    "bpm": 140
+  },
+  {
+    "rank": 108,
+    "title": "Payphone",
+    "artist": "Maroon5",
+    "genre": "pop",
+    "year": 2012,
+    "bpm": 110
+  },
+  {
+    "rank": 109,
+    "title": "WhatMakesYouBeautiful",
+    "artist": "OneDirection",
+    "genre": "boyband",
+    "year": 2012,
+    "bpm": 125
+  },
+  {
+    "rank": 110,
+    "title": "IKnewYouWereTrouble.",
+    "artist": "TaylorSwift",
+    "genre": "pop",
+    "year": 2012,
+    "bpm": 77
+  },
+  {
+    "rank": 111,
+    "title": "CallMeMaybe",
+    "artist": "CarlyRaeJepsen",
+    "genre": "canadianpop",
+    "year": 2012,
+    "bpm": 120
+  },
+  {
+    "rank": 112,
+    "title": "LoveYouLikeALoveSong",
+    "artist": "SelenaGomez&TheScene",
+    "genre": "dancepop",
+    "year": 2012,
+    "bpm": 117
+  },
+  {
+    "rank": 113,
+    "title": "SetFiretotheRain",
+    "artist": "Adele",
+    "genre": "britishsoul",
+    "year": 2012,
+    "bpm": 108
+  },
+  {
+    "rank": 114,
+    "title": "WeAreNeverEverGettingBackTogether",
+    "artist": "TaylorSwift",
+    "genre": "pop",
+    "year": 2012,
+    "bpm": 86
+  },
+  {
+    "rank": 115,
+    "title": "Stronger(WhatDoesn'tKillYou)",
+    "artist": "KellyClarkson",
+    "genre": "dancepop",
+    "year": 2012,
+    "bpm": 116
+  },
+  {
+    "rank": 116,
+    "title": "Try",
+    "artist": "P!nk",
+    "genre": "dancepop",
+    "year": 2012,
+    "bpm": 104
+  },
+  {
+    "rank": 117,
+    "title": "Starships",
+    "artist": "NickiMinaj",
+    "genre": "dancepop",
+    "year": 2012,
+    "bpm": 125
+  },
+  {
+    "rank": 118,
+    "title": "OneMoreNight",
+    "artist": "Maroon5",
+    "genre": "pop",
+    "year": 2012,
+    "bpm": 93
+  },
+  {
+    "rank": 119,
+    "title": "GoodTime",
+    "artist": "OwlCity",
+    "genre": "pop",
+    "year": 2012,
+    "bpm": 126
+  },
+  {
+    "rank": 120,
+    "title": "GladYouCame",
+    "artist": "TheWanted",
+    "genre": "boyband",
+    "year": 2012,
+    "bpm": 127
+  },
+  {
+    "rank": 121,
+    "title": "BeautyAndABeat",
+    "artist": "JustinBieber",
+    "genre": "canadianpop",
+    "year": 2012,
+    "bpm": 128
+  },
+  {
+    "rank": 122,
+    "title": "InternationalLove",
+    "artist": "Pitbull",
+    "genre": "dancepop",
+    "year": 2012,
+    "bpm": 120
+  },
+  {
+    "rank": 123,
+    "title": "SomeNights",
+    "artist": "fun.",
+    "genre": "baroquepop",
+    "year": 2012,
+    "bpm": 108
+  },
+  {
+    "rank": 124,
+    "title": "Boyfriend",
+    "artist": "JustinBieber",
+    "genre": "canadianpop",
+    "year": 2012,
+    "bpm": 97
+  },
+  {
+    "rank": 125,
+    "title": "PartOfMe",
+    "artist": "KatyPerry",
+    "genre": "dancepop",
+    "year": 2012,
+    "bpm": 130
+  },
+  {
+    "rank": 126,
+    "title": "Domino",
+    "artist": "JessieJ",
+    "genre": "australianpop",
+    "year": 2012,
+    "bpm": 127
+  },
+  {
+    "rank": 127,
+    "title": "WhereHaveYouBeen",
+    "artist": "Rihanna",
+    "genre": "barbadianpop",
+    "year": 2012,
+    "bpm": 128
+  },
+  {
+    "rank": 128,
+    "title": "WideAwake",
+    "artist": "KatyPerry",
+    "genre": "dancepop",
+    "year": 2012,
+    "bpm": 160
+  },
+  {
+    "rank": 129,
+    "title": "TheOneThatGotAway",
+    "artist": "KatyPerry",
+    "genre": "dancepop",
+    "year": 2012,
+    "bpm": 134
+  },
+  {
+    "rank": 130,
+    "title": "DanceAgain",
+    "artist": "JenniferLopez",
+    "genre": "dancepop",
+    "year": 2012,
+    "bpm": 128
+  },
+  {
+    "rank": 131,
+    "title": "TurnUptheMusic",
+    "artist": "ChrisBrown",
+    "genre": "dancepop",
+    "year": 2012,
+    "bpm": 130
+  },
+  {
+    "rank": 132,
+    "title": "Lights-SingleVersion",
+    "artist": "EllieGoulding",
+    "genre": "dancepop",
+    "year": 2012,
+    "bpm": 120
+  },
+  {
+    "rank": 133,
+    "title": "WeAreYoung(feat.JanelleMonáe)",
+    "artist": "fun.",
+    "genre": "baroquepop",
+    "year": 2012,
+    "bpm": 184
+  },
+  {
+    "rank": 134,
+    "title": "Diamonds",
+    "artist": "Rihanna",
+    "genre": "barbadianpop",
+    "year": 2012,
+    "bpm": 92
+  },
+  {
+    "rank": 135,
+    "title": "Don'tStoptheParty(feat.TJR)",
+    "artist": "Pitbull",
+    "genre": "dancepop",
+    "year": 2012,
+    "bpm": 127
+  },
+  {
+    "rank": 136,
+    "title": "YouDaOne",
+    "artist": "Rihanna",
+    "genre": "barbadianpop",
+    "year": 2012,
+    "bpm": 127
+  },
+  {
+    "rank": 137,
+    "title": "StereoHearts(feat.AdamLevine)",
+    "artist": "GymClassHeroes",
+    "genre": "dancepop",
+    "year": 2012,
+    "bpm": 90
+  },
+  {
+    "rank": 138,
+    "title": "ItWillRain",
+    "artist": "BrunoMars",
+    "genre": "pop",
+    "year": 2012,
+    "bpm": 150
+  },
+  {
+    "rank": 139,
+    "title": "BlowMe(OneLastKiss)",
+    "artist": "P!nk",
+    "genre": "dancepop",
+    "year": 2012,
+    "bpm": 114
+  },
+  {
+    "rank": 140,
+    "title": "UnderneaththeTree",
+    "artist": "KellyClarkson",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 160
+  },
+  {
+    "rank": 141,
+    "title": "WakeMeUp",
+    "artist": "Avicii",
+    "genre": "bigroom",
+    "year": 2013,
+    "bpm": 124
+  },
+  {
+    "rank": 142,
+    "title": "StoryofMyLife",
+    "artist": "OneDirection",
+    "genre": "boyband",
+    "year": 2013,
+    "bpm": 121
+  },
+  {
+    "rank": 143,
+    "title": "JustGiveMeaReason(feat.NateRuess)",
+    "artist": "P!nk",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 95
+  },
+  {
+    "rank": 144,
+    "title": "HallofFame",
+    "artist": "TheScript",
+    "genre": "celticrock",
+    "year": 2013,
+    "bpm": 85
+  },
+  {
+    "rank": 145,
+    "title": "Roar",
+    "artist": "KatyPerry",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 180
+  },
+  {
+    "rank": 146,
+    "title": "WeCan'tStop",
+    "artist": "MileyCyrus",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 80
+  },
+  {
+    "rank": 147,
+    "title": "Don'tYouWorryChild-RadioEdit",
+    "artist": "SwedishHouseMafia",
+    "genre": "bigroom",
+    "year": 2013,
+    "bpm": 129
+  },
+  {
+    "rank": 148,
+    "title": "GetLucky(feat.PharrellWilliams&NileRodgers)-RadioEdit",
+    "artist": "DaftPunk",
+    "genre": "electro",
+    "year": 2013,
+    "bpm": 116
+  },
+  {
+    "rank": 149,
+    "title": "WreckingBall",
+    "artist": "MileyCyrus",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 120
+  },
+  {
+    "rank": 150,
+    "title": "Impossible",
+    "artist": "JamesArthur",
+    "genre": "pop",
+    "year": 2013,
+    "bpm": 170
+  },
+  {
+    "rank": 151,
+    "title": "BlurredLines",
+    "artist": "RobinThicke",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 120
+  },
+  {
+    "rank": 152,
+    "title": "HeartAttack",
+    "artist": "DemiLovato",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 174
+  },
+  {
+    "rank": 153,
+    "title": "WeAreNeverEverGettingBackTogether",
+    "artist": "TaylorSwift",
+    "genre": "pop",
+    "year": 2013,
+    "bpm": 86
+  },
+  {
+    "rank": 154,
+    "title": "DieYoung",
+    "artist": "Kesha",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 128
+  },
+  {
+    "rank": 155,
+    "title": "Clarity",
+    "artist": "Zedd",
+    "genre": "complextro",
+    "year": 2013,
+    "bpm": 128
+  },
+  {
+    "rank": 156,
+    "title": "SummertimeSadness(LanaDelReyVs.CedricGervais)-CedricGervaisRemix",
+    "artist": "LanaDelRey",
+    "genre": "artpop",
+    "year": 2013,
+    "bpm": 126
+  },
+  {
+    "rank": 157,
+    "title": "UnderControl",
+    "artist": "CalvinHarris",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 126
+  },
+  {
+    "rank": 158,
+    "title": "EverybodyTalks",
+    "artist": "NeonTrees",
+    "genre": "indiepop",
+    "year": 2013,
+    "bpm": 155
+  },
+  {
+    "rank": 159,
+    "title": "HoldOn,We'reGoingHome",
+    "artist": "Drake",
+    "genre": "canadianhiphop",
+    "year": 2013,
+    "bpm": 100
+  },
+  {
+    "rank": 160,
+    "title": "BestSongEver",
+    "artist": "OneDirection",
+    "genre": "boyband",
+    "year": 2013,
+    "bpm": 118
+  },
+  {
+    "rank": 161,
+    "title": "KissYou",
+    "artist": "OneDirection",
+    "genre": "boyband",
+    "year": 2013,
+    "bpm": 90
+  },
+  {
+    "rank": 162,
+    "title": "SweetNothing(feat.FlorenceWelch)",
+    "artist": "CalvinHarris",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 128
+  },
+  {
+    "rank": 163,
+    "title": "LoseYourselftoDance",
+    "artist": "DaftPunk",
+    "genre": "electro",
+    "year": 2013,
+    "bpm": 100
+  },
+  {
+    "rank": 164,
+    "title": "WorkBitch",
+    "artist": "BritneySpears",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 128
+  },
+  {
+    "rank": 165,
+    "title": "Brave",
+    "artist": "SaraBareilles",
+    "genre": "acousticpop",
+    "year": 2013,
+    "bpm": 185
+  },
+  {
+    "rank": 166,
+    "title": "Can'tHoldUs(feat.RayDalton)",
+    "artist": "Macklemore&RyanLewis",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 146
+  },
+  {
+    "rank": 167,
+    "title": "FeelThisMoment(feat.ChristinaAguilera)",
+    "artist": "Pitbull",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 136
+  },
+  {
+    "rank": 168,
+    "title": "BeneathYourBeautiful",
+    "artist": "Labrinth",
+    "genre": "pop",
+    "year": 2013,
+    "bpm": 84
+  },
+  {
+    "rank": 169,
+    "title": "LetMeLoveYou(UntilYouLearnToLoveYourself)",
+    "artist": "Ne-Yo",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 125
+  },
+  {
+    "rank": 170,
+    "title": "ThriftShop(feat.Wanz)",
+    "artist": "Macklemore&RyanLewis",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 95
+  },
+  {
+    "rank": 171,
+    "title": "IfILoseMyself-AlessovsOneRepublic",
+    "artist": "OneRepublic",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 126
+  },
+  {
+    "rank": 172,
+    "title": "TheWay",
+    "artist": "ArianaGrande",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 82
+  },
+  {
+    "rank": 173,
+    "title": "Suit&Tie",
+    "artist": "JustinTimberlake",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 102
+  },
+  {
+    "rank": 174,
+    "title": "#thatPOWER",
+    "artist": "will.i.am",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 128
+  },
+  {
+    "rank": 175,
+    "title": "ILoveIt(feat.CharliXCX)",
+    "artist": "IconaPop",
+    "genre": "candypop",
+    "year": 2013,
+    "bpm": 126
+  },
+  {
+    "rank": 176,
+    "title": "PlayHard(feat.Ne-Yo&Akon)-NewEdit",
+    "artist": "DavidGuetta",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 130
+  },
+  {
+    "rank": 177,
+    "title": "Daylight",
+    "artist": "Maroon5",
+    "genre": "pop",
+    "year": 2013,
+    "bpm": 120
+  },
+  {
+    "rank": 178,
+    "title": "LoveSomebody",
+    "artist": "Maroon5",
+    "genre": "pop",
+    "year": 2013,
+    "bpm": 120
+  },
+  {
+    "rank": 179,
+    "title": "ALittlePartyNeverKilledNobody(AllWeGot)",
+    "artist": "Fergie",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 130
+  },
+  {
+    "rank": 180,
+    "title": "Move",
+    "artist": "LittleMix",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 121
+  },
+  {
+    "rank": 181,
+    "title": "WalksLikeRihanna",
+    "artist": "TheWanted",
+    "genre": "boyband",
+    "year": 2013,
+    "bpm": 126
+  },
+  {
+    "rank": 182,
+    "title": "RockNRoll",
+    "artist": "AvrilLavigne",
+    "genre": "canadianpop",
+    "year": 2013,
+    "bpm": 184
+  },
+  {
+    "rank": 183,
+    "title": "Heartbreaker",
+    "artist": "JustinBieber",
+    "genre": "canadianpop",
+    "year": 2013,
+    "bpm": 105
+  },
+  {
+    "rank": 184,
+    "title": "Mirrors-RadioEdit",
+    "artist": "JustinTimberlake",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 77
+  },
+  {
+    "rank": 185,
+    "title": "NextToMe",
+    "artist": "EmeliSandé",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 95
+  },
+  {
+    "rank": 186,
+    "title": "MadeInTheUSA",
+    "artist": "DemiLovato",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 87
+  },
+  {
+    "rank": 187,
+    "title": "Clown",
+    "artist": "EmeliSandé",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 130
+  },
+  {
+    "rank": 188,
+    "title": "GirlOnFire(feat.NickiMinaj)-InfernoVersion",
+    "artist": "AliciaKeys",
+    "genre": "hippop",
+    "year": 2013,
+    "bpm": 93
+  },
+  {
+    "rank": 189,
+    "title": "TKO",
+    "artist": "JustinTimberlake",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 138
+  },
+  {
+    "rank": 190,
+    "title": "Come&GetIt",
+    "artist": "SelenaGomez",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 80
+  },
+  {
+    "rank": 191,
+    "title": "LiveItUp",
+    "artist": "JenniferLopez",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 128
+  },
+  {
+    "rank": 192,
+    "title": "WeOwnTheNight",
+    "artist": "TheWanted",
+    "genre": "boyband",
+    "year": 2013,
+    "bpm": 104
+  },
+  {
+    "rank": 193,
+    "title": "Atlas-FromTheHungerGames:CatchingFireSoundtrack",
+    "artist": "Coldplay",
+    "genre": "permanentwave",
+    "year": 2013,
+    "bpm": 136
+  },
+  {
+    "rank": 194,
+    "title": "WhatAboutLove",
+    "artist": "AustinMahone",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 100
+  },
+  {
+    "rank": 195,
+    "title": "TakeBacktheNight",
+    "artist": "JustinTimberlake",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 107
+  },
+  {
+    "rank": 196,
+    "title": "Applause",
+    "artist": "LadyGaga",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 140
+  },
+  {
+    "rank": 197,
+    "title": "AnythingCouldHappen",
+    "artist": "EllieGoulding",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 103
+  },
+  {
+    "rank": 198,
+    "title": "FinallyFoundYou",
+    "artist": "EnriqueIglesias",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 128
+  },
+  {
+    "rank": 199,
+    "title": "PomPoms",
+    "artist": "JonasBrothers",
+    "genre": "boyband",
+    "year": 2013,
+    "bpm": 148
+  },
+  {
+    "rank": 200,
+    "title": "#Beautiful",
+    "artist": "MariahCarey",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 107
+  },
+  {
+    "rank": 201,
+    "title": "HowYaDoin'?(feat.MissyElliott)",
+    "artist": "LittleMix",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 201
+  },
+  {
+    "rank": 202,
+    "title": "CrazyKids(feat.will.i.am)",
+    "artist": "Kesha",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 128
+  },
+  {
+    "rank": 203,
+    "title": "OohLaLa(from\"TheSmurfs2\")",
+    "artist": "BritneySpears",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 128
+  },
+  {
+    "rank": 204,
+    "title": "PeopleLikeUs",
+    "artist": "KellyClarkson",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 128
+  },
+  {
+    "rank": 205,
+    "title": "Overdose",
+    "artist": "Ciara",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 107
+  },
+  {
+    "rank": 206,
+    "title": "RightNow-DyroRadioEdit",
+    "artist": "Rihanna",
+    "genre": "barbadianpop",
+    "year": 2013,
+    "bpm": 130
+  },
+  {
+    "rank": 207,
+    "title": "GiveIt2U",
+    "artist": "RobinThicke",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 127
+  },
+  {
+    "rank": 208,
+    "title": "FoolishGames",
+    "artist": "Jewel",
+    "genre": "alaskaindie",
+    "year": 2013,
+    "bpm": 132
+  },
+  {
+    "rank": 209,
+    "title": "OuttaNowhere(feat.DannyMercer)",
+    "artist": "Pitbull",
+    "genre": "dancepop",
+    "year": 2013,
+    "bpm": 95
+  },
+  {
+    "rank": 210,
+    "title": "Freak",
+    "artist": "KellyRowland",
+    "genre": "atlhiphop",
+    "year": 2013,
+    "bpm": 104
+  },
+  {
+    "rank": 211,
+    "title": "AllofMe",
+    "artist": "JohnLegend",
+    "genre": "neomellow",
+    "year": 2014,
+    "bpm": 120
+  },
+  {
+    "rank": 212,
+    "title": "StayWithMe",
+    "artist": "SamSmith",
+    "genre": "pop",
+    "year": 2014,
+    "bpm": 84
+  },
+  {
+    "rank": 213,
+    "title": "Summer",
+    "artist": "CalvinHarris",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 128
+  },
+  {
+    "rank": 214,
+    "title": "Happy-From\"DespicableMe2",
+    "artist": "PharrellWilliams",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 160
+  },
+  {
+    "rank": 215,
+    "title": "Rude",
+    "artist": "MAGIC!",
+    "genre": "pop",
+    "year": 2014,
+    "bpm": 144
+  },
+  {
+    "rank": 216,
+    "title": "ShakeItOff",
+    "artist": "TaylorSwift",
+    "genre": "pop",
+    "year": 2014,
+    "bpm": 160
+  },
+  {
+    "rank": 217,
+    "title": "DarkHorse",
+    "artist": "KatyPerry",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 132
+  },
+  {
+    "rank": 218,
+    "title": "HeyBrother",
+    "artist": "Avicii",
+    "genre": "bigroom",
+    "year": 2014,
+    "bpm": 125
+  },
+  {
+    "rank": 219,
+    "title": "Maps",
+    "artist": "Maroon5",
+    "genre": "pop",
+    "year": 2014,
+    "bpm": 120
+  },
+  {
+    "rank": 220,
+    "title": "Treasure",
+    "artist": "BrunoMars",
+    "genre": "pop",
+    "year": 2014,
+    "bpm": 116
+  },
+  {
+    "rank": 221,
+    "title": "LetHerGo",
+    "artist": "Passenger",
+    "genre": "folk-pop",
+    "year": 2014,
+    "bpm": 75
+  },
+  {
+    "rank": 222,
+    "title": "Problem",
+    "artist": "ArianaGrande",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 103
+  },
+  {
+    "rank": 223,
+    "title": "Pompeii",
+    "artist": "Bastille",
+    "genre": "metropopolis",
+    "year": 2014,
+    "bpm": 127
+  },
+  {
+    "rank": 224,
+    "title": "Team",
+    "artist": "Lorde",
+    "genre": "artpop",
+    "year": 2014,
+    "bpm": 100
+  },
+  {
+    "rank": 225,
+    "title": "LoveMeAgain",
+    "artist": "JohnNewman",
+    "genre": "pop",
+    "year": 2014,
+    "bpm": 126
+  },
+  {
+    "rank": 226,
+    "title": "Latch",
+    "artist": "Disclosure",
+    "genre": "house",
+    "year": 2014,
+    "bpm": 122
+  },
+  {
+    "rank": 227,
+    "title": "AdoreYou",
+    "artist": "MileyCyrus",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 120
+  },
+  {
+    "rank": 228,
+    "title": "LoveNeverFeltSoGood",
+    "artist": "MichaelJackson",
+    "genre": "pop",
+    "year": 2014,
+    "bpm": 118
+  },
+  {
+    "rank": 229,
+    "title": "Burn",
+    "artist": "EllieGoulding",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 87
+  },
+  {
+    "rank": 230,
+    "title": "SheLooksSoPerfect",
+    "artist": "5SecondsofSummer",
+    "genre": "boyband",
+    "year": 2014,
+    "bpm": 160
+  },
+  {
+    "rank": 231,
+    "title": "Fancy",
+    "artist": "IggyAzalea",
+    "genre": "australianhiphop",
+    "year": 2014,
+    "bpm": 95
+  },
+  {
+    "rank": 232,
+    "title": "TalkDirty(feat.2Chainz)",
+    "artist": "JasonDerulo",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 100
+  },
+  {
+    "rank": 233,
+    "title": "Gorilla",
+    "artist": "BrunoMars",
+    "genre": "pop",
+    "year": 2014,
+    "bpm": 140
+  },
+  {
+    "rank": 234,
+    "title": "human",
+    "artist": "ChristinaPerri",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 144
+  },
+  {
+    "rank": 235,
+    "title": "YoungGirls",
+    "artist": "BrunoMars",
+    "genre": "pop",
+    "year": 2014,
+    "bpm": 126
+  },
+  {
+    "rank": 236,
+    "title": "Wiggle(feat.SnoopDogg)",
+    "artist": "JasonDerulo",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 82
+  },
+  {
+    "rank": 237,
+    "title": "LoveRunsOut",
+    "artist": "OneRepublic",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 120
+  },
+  {
+    "rank": 238,
+    "title": "ThisIsHowWeDo",
+    "artist": "KatyPerry",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 96
+  },
+  {
+    "rank": 239,
+    "title": "MmmYeah(feat.Pitbull)",
+    "artist": "AustinMahone",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 126
+  },
+  {
+    "rank": 240,
+    "title": "ALittlePartyNeverKilledNobody(AllWeGot)",
+    "artist": "Fergie",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 130
+  },
+  {
+    "rank": 241,
+    "title": "#SELFIE",
+    "artist": "TheChainsmokers",
+    "genre": "electropop",
+    "year": 2014,
+    "bpm": 128
+  },
+  {
+    "rank": 242,
+    "title": "Partition",
+    "artist": "Beyoncé",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 186
+  },
+  {
+    "rank": 243,
+    "title": "Birthday",
+    "artist": "KatyPerry",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 126
+  },
+  {
+    "rank": 244,
+    "title": "G.U.Y.",
+    "artist": "LadyGaga",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 110
+  },
+  {
+    "rank": 245,
+    "title": "StayTheNight-FeaturingHayleyWilliamsOfParamore",
+    "artist": "Zedd",
+    "genre": "complextro",
+    "year": 2014,
+    "bpm": 128
+  },
+  {
+    "rank": 246,
+    "title": "LetItGo-From\"Frozen/SingleVersion",
+    "artist": "DemiLovato",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 140
+  },
+  {
+    "rank": 247,
+    "title": "Wings",
+    "artist": "Birdy",
+    "genre": "neomellow",
+    "year": 2014,
+    "bpm": 83
+  },
+  {
+    "rank": 248,
+    "title": "Can'tRemembertoForgetYou(feat.Rihanna)",
+    "artist": "Shakira",
+    "genre": "colombianpop",
+    "year": 2014,
+    "bpm": 138
+  },
+  {
+    "rank": 249,
+    "title": "ShotMeDown(feat.SkylarGrey)-RadioEdit",
+    "artist": "DavidGuetta",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 192
+  },
+  {
+    "rank": 250,
+    "title": "SaySomething",
+    "artist": "AGreatBigWorld",
+    "genre": "neomellow",
+    "year": 2014,
+    "bpm": 138
+  },
+  {
+    "rank": 251,
+    "title": "ASkyFullofStars",
+    "artist": "Coldplay",
+    "genre": "permanentwave",
+    "year": 2014,
+    "bpm": 125
+  },
+  {
+    "rank": 252,
+    "title": "ComeGetItBae",
+    "artist": "PharrellWilliams",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 120
+  },
+  {
+    "rank": 253,
+    "title": "Chandelier",
+    "artist": "Sia",
+    "genre": "australiandance",
+    "year": 2014,
+    "bpm": 174
+  },
+  {
+    "rank": 254,
+    "title": "XO",
+    "artist": "Beyoncé",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 170
+  },
+  {
+    "rank": 255,
+    "title": "WeAreOne(OleOla)[TheOfficial2014FIFAWorldCupSong]",
+    "artist": "Pitbull",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 125
+  },
+  {
+    "rank": 256,
+    "title": "NotAboutAngels",
+    "artist": "Birdy",
+    "genre": "neomellow",
+    "year": 2014,
+    "bpm": 116
+  },
+  {
+    "rank": 257,
+    "title": "DrunkinLove",
+    "artist": "Beyoncé",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 140
+  },
+  {
+    "rank": 258,
+    "title": "Anaconda",
+    "artist": "NickiMinaj",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 130
+  },
+  {
+    "rank": 259,
+    "title": "BoomClap-FromtheMotionPictureDasSchicksalisteinmieserVerräter",
+    "artist": "CharliXCX",
+    "genre": "candypop",
+    "year": 2014,
+    "bpm": 92
+  },
+  {
+    "rank": 260,
+    "title": "LaLaLa(Brasil2014)(feat.CarlinhosBrown)",
+    "artist": "Shakira",
+    "genre": "colombianpop",
+    "year": 2014,
+    "bpm": 128
+  },
+  {
+    "rank": 261,
+    "title": "TeeShirt-SoundtrackVersion",
+    "artist": "Birdy",
+    "genre": "neomellow",
+    "year": 2014,
+    "bpm": 76
+  },
+  {
+    "rank": 262,
+    "title": "WordsasWeapons",
+    "artist": "Birdy",
+    "genre": "neomellow",
+    "year": 2014,
+    "bpm": 120
+  },
+  {
+    "rank": 263,
+    "title": "You'reMine(Eternal)",
+    "artist": "MariahCarey",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 149
+  },
+  {
+    "rank": 264,
+    "title": "Sheezus",
+    "artist": "LilyAllen",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 130
+  },
+  {
+    "rank": 265,
+    "title": "Cannonball",
+    "artist": "LeaMichele",
+    "genre": "hollywood",
+    "year": 2014,
+    "bpm": 92
+  },
+  {
+    "rank": 266,
+    "title": "It'sOnAgain-MainSoundtrack",
+    "artist": "AliciaKeys",
+    "genre": "hippop",
+    "year": 2014,
+    "bpm": 110
+  },
+  {
+    "rank": 267,
+    "title": "ILuhYaPapi",
+    "artist": "JenniferLopez",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 96
+  },
+  {
+    "rank": 268,
+    "title": "NotaBadThing",
+    "artist": "JustinTimberlake",
+    "genre": "dancepop",
+    "year": 2014,
+    "bpm": 86
+  },
+  {
+    "rank": 269,
+    "title": "ThinkingoutLoud",
+    "artist": "EdSheeran",
+    "genre": "pop",
+    "year": 2015,
+    "bpm": 79
+  },
+  {
+    "rank": 270,
+    "title": "I'mNotTheOnlyOne",
+    "artist": "SamSmith",
+    "genre": "pop",
+    "year": 2015,
+    "bpm": 82
+  },
+  {
+    "rank": 271,
+    "title": "TheHills",
+    "artist": "TheWeeknd",
+    "genre": "canadiancontemporaryr&b",
+    "year": 2015,
+    "bpm": 113
+  },
+  {
+    "rank": 272,
+    "title": "LoveYourself",
+    "artist": "JustinBieber",
+    "genre": "canadianpop",
+    "year": 2015,
+    "bpm": 100
+  },
+  {
+    "rank": 273,
+    "title": "UptownFunk",
+    "artist": "MarkRonson",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 115
+  },
+  {
+    "rank": 274,
+    "title": "TakeMeToChurch",
+    "artist": "Hozier",
+    "genre": "irishsinger-songwriter",
+    "year": 2015,
+    "bpm": 129
+  },
+  {
+    "rank": 275,
+    "title": "Sugar",
+    "artist": "Maroon5",
+    "genre": "pop",
+    "year": 2015,
+    "bpm": 120
+  },
+  {
+    "rank": 276,
+    "title": "Sorry",
+    "artist": "JustinBieber",
+    "genre": "canadianpop",
+    "year": 2015,
+    "bpm": 100
+  },
+  {
+    "rank": 277,
+    "title": "FourFiveSeconds",
+    "artist": "Rihanna",
+    "genre": "barbadianpop",
+    "year": 2015,
+    "bpm": 206
+  },
+  {
+    "rank": 278,
+    "title": "LoveMeLikeYouDo-From\"FiftyShadesOfGrey",
+    "artist": "EllieGoulding",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 190
+  },
+  {
+    "rank": 279,
+    "title": "EarnedIt(FiftyShadesOfGrey)-FromThe\"FiftyShadesOfGrey\"Soundtrack",
+    "artist": "TheWeeknd",
+    "genre": "canadiancontemporaryr&b",
+    "year": 2015,
+    "bpm": 120
+  },
+  {
+    "rank": 280,
+    "title": "WhatDoYouMean?",
+    "artist": "JustinBieber",
+    "genre": "canadianpop",
+    "year": 2015,
+    "bpm": 125
+  },
+  {
+    "rank": 281,
+    "title": "Stitches",
+    "artist": "ShawnMendes",
+    "genre": "canadianpop",
+    "year": 2015,
+    "bpm": 150
+  },
+  {
+    "rank": 282,
+    "title": "WanttoWantMe",
+    "artist": "JasonDerulo",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 114
+  },
+  {
+    "rank": 283,
+    "title": "MyHouse",
+    "artist": "FloRida",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 94
+  },
+  {
+    "rank": 284,
+    "title": "Waves-RobinSchulzRadioEdit",
+    "artist": "Mr.Probz",
+    "genre": "tropicalhouse",
+    "year": 2015,
+    "bpm": 120
+  },
+  {
+    "rank": 285,
+    "title": "NightChanges",
+    "artist": "OneDirection",
+    "genre": "boyband",
+    "year": 2015,
+    "bpm": 120
+  },
+  {
+    "rank": 286,
+    "title": "HowDeepIsYourLove",
+    "artist": "CalvinHarris",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 122
+  },
+  {
+    "rank": 287,
+    "title": "NeverForgetYou",
+    "artist": "ZaraLarsson",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 146
+  },
+  {
+    "rank": 288,
+    "title": "LoveMeHarder",
+    "artist": "ArianaGrande",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 99
+  },
+  {
+    "rank": 289,
+    "title": "Animals",
+    "artist": "Maroon5",
+    "genre": "pop",
+    "year": 2015,
+    "bpm": 190
+  },
+  {
+    "rank": 290,
+    "title": "Blame",
+    "artist": "CalvinHarris",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 128
+  },
+  {
+    "rank": 291,
+    "title": "WorthIt",
+    "artist": "FifthHarmony",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 100
+  },
+  {
+    "rank": 292,
+    "title": "BreakFree",
+    "artist": "ArianaGrande",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 130
+  },
+  {
+    "rank": 293,
+    "title": "Don't",
+    "artist": "EdSheeran",
+    "genre": "pop",
+    "year": 2015,
+    "bpm": 95
+  },
+  {
+    "rank": 294,
+    "title": "ElasticHeart",
+    "artist": "Sia",
+    "genre": "australiandance",
+    "year": 2015,
+    "bpm": 130
+  },
+  {
+    "rank": 295,
+    "title": "RatherBe(feat.JessGlynne)",
+    "artist": "CleanBandit",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 121
+  },
+  {
+    "rank": 296,
+    "title": "Hello",
+    "artist": "Adele",
+    "genre": "britishsoul",
+    "year": 2015,
+    "bpm": 158
+  },
+  {
+    "rank": 297,
+    "title": "DearFutureHusband",
+    "artist": "MeghanTrainor",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 79
+  },
+  {
+    "rank": 298,
+    "title": "43776",
+    "artist": "Beyoncé",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 136
+  },
+  {
+    "rank": 299,
+    "title": "TheHeartWantsWhatItWants",
+    "artist": "SelenaGomez",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 83
+  },
+  {
+    "rank": 300,
+    "title": "HeyMama(feat.NickiMinaj,BebeRexha&Afrojack)",
+    "artist": "DavidGuetta",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 86
+  },
+  {
+    "rank": 301,
+    "title": "GenieInaBottle",
+    "artist": "ChristinaAguilera",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 176
+  },
+  {
+    "rank": 302,
+    "title": "Company",
+    "artist": "JustinBieber",
+    "genre": "canadianpop",
+    "year": 2015,
+    "bpm": 95
+  },
+  {
+    "rank": 303,
+    "title": "Sing",
+    "artist": "EdSheeran",
+    "genre": "pop",
+    "year": 2015,
+    "bpm": 120
+  },
+  {
+    "rank": 304,
+    "title": "Jealous-Remix",
+    "artist": "NickJonas",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 93
+  },
+  {
+    "rank": 305,
+    "title": "ReallyDon'tCare",
+    "artist": "DemiLovato",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 121
+  },
+  {
+    "rank": 306,
+    "title": "Downtown(feat.MelleMel,GrandmasterCaz,KoolMoeDee&EricNally)",
+    "artist": "Macklemore&RyanLewis",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 110
+  },
+  {
+    "rank": 307,
+    "title": "OnlyLoveCanHurtLikeThis",
+    "artist": "PalomaFaith",
+    "genre": "britishsoul",
+    "year": 2015,
+    "bpm": 91
+  },
+  {
+    "rank": 308,
+    "title": "HeartbeatSong",
+    "artist": "KellyClarkson",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 149
+  },
+  {
+    "rank": 309,
+    "title": "Up",
+    "artist": "OllyMurs",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 115
+  },
+  {
+    "rank": 310,
+    "title": "Trumpets",
+    "artist": "JasonDerulo",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 82
+  },
+  {
+    "rank": 311,
+    "title": "Runnin'(LoseItAll)",
+    "artist": "NaughtyBoy",
+    "genre": "tropicalhouse",
+    "year": 2015,
+    "bpm": 139
+  },
+  {
+    "rank": 312,
+    "title": "SameOldLove",
+    "artist": "SelenaGomez",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 98
+  },
+  {
+    "rank": 313,
+    "title": "IWantYouToKnow",
+    "artist": "Zedd",
+    "genre": "complextro",
+    "year": 2015,
+    "bpm": 130
+  },
+  {
+    "rank": 314,
+    "title": "LipsAreMovin",
+    "artist": "MeghanTrainor",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 139
+  },
+  {
+    "rank": 315,
+    "title": "I'llShowYou",
+    "artist": "JustinBieber",
+    "genre": "canadianpop",
+    "year": 2015,
+    "bpm": 192
+  },
+  {
+    "rank": 316,
+    "title": "Here",
+    "artist": "AlessiaCara",
+    "genre": "canadiancontemporaryr&b",
+    "year": 2015,
+    "bpm": 120
+  },
+  {
+    "rank": 317,
+    "title": "ILived",
+    "artist": "OneRepublic",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 120
+  },
+  {
+    "rank": 318,
+    "title": "Fireball(feat.JohnRyan)",
+    "artist": "Pitbull",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 123
+  },
+  {
+    "rank": 319,
+    "title": "EasyLove",
+    "artist": "Sigala",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 124
+  },
+  {
+    "rank": 320,
+    "title": "TheFeeling",
+    "artist": "JustinBieber",
+    "genre": "canadianpop",
+    "year": 2015,
+    "bpm": 127
+  },
+  {
+    "rank": 321,
+    "title": "IReallyLikeYou",
+    "artist": "CarlyRaeJepsen",
+    "genre": "canadianpop",
+    "year": 2015,
+    "bpm": 122
+  },
+  {
+    "rank": 322,
+    "title": "BO$$",
+    "artist": "FifthHarmony",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 103
+  },
+  {
+    "rank": 323,
+    "title": "Sugar",
+    "artist": "Maroon5",
+    "genre": "pop",
+    "year": 2015,
+    "bpm": 120
+  },
+  {
+    "rank": 324,
+    "title": "Focus",
+    "artist": "ArianaGrande",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 100
+  },
+  {
+    "rank": 325,
+    "title": "AllAboutThatBass",
+    "artist": "MeghanTrainor",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 134
+  },
+  {
+    "rank": 326,
+    "title": "OnMyMind",
+    "artist": "EllieGoulding",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 155
+  },
+  {
+    "rank": 327,
+    "title": "LoveMeLikeYou",
+    "artist": "LittleMix",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 106
+  },
+  {
+    "rank": 328,
+    "title": "BrokenArrows",
+    "artist": "Avicii",
+    "genre": "bigroom",
+    "year": 2015,
+    "bpm": 116
+  },
+  {
+    "rank": 329,
+    "title": "Booty",
+    "artist": "JenniferLopez",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 129
+  },
+  {
+    "rank": 330,
+    "title": "WhatDoYouMean?-Acoustic",
+    "artist": "JustinBieber",
+    "genre": "canadianpop",
+    "year": 2015,
+    "bpm": 125
+  },
+  {
+    "rank": 331,
+    "title": "MarkMyWords",
+    "artist": "JustinBieber",
+    "genre": "canadianpop",
+    "year": 2015,
+    "bpm": 114
+  },
+  {
+    "rank": 332,
+    "title": "LayItAllonMe",
+    "artist": "Rudimental",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 123
+  },
+  {
+    "rank": 333,
+    "title": "AmericanOxygen",
+    "artist": "Rihanna",
+    "genre": "barbadianpop",
+    "year": 2015,
+    "bpm": 78
+  },
+  {
+    "rank": 334,
+    "title": "BangBang",
+    "artist": "JessieJ",
+    "genre": "australianpop",
+    "year": 2015,
+    "bpm": 150
+  },
+  {
+    "rank": 335,
+    "title": "Reality-RadioEdit",
+    "artist": "LostFrequencies",
+    "genre": "belgianedm",
+    "year": 2015,
+    "bpm": 122
+  },
+  {
+    "rank": 336,
+    "title": "Alive",
+    "artist": "Sia",
+    "genre": "australiandance",
+    "year": 2015,
+    "bpm": 100
+  },
+  {
+    "rank": 337,
+    "title": "Sugar(feat.FrancescoYates)",
+    "artist": "RobinSchulz",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 123
+  },
+  {
+    "rank": 338,
+    "title": "BeenYou",
+    "artist": "JustinBieber",
+    "genre": "canadianpop",
+    "year": 2015,
+    "bpm": 113
+  },
+  {
+    "rank": 339,
+    "title": "PrayerinC-RobinSchulzRadioEdit",
+    "artist": "LillyWoodandThePrick",
+    "genre": "frenchindiepop",
+    "year": 2015,
+    "bpm": 123
+  },
+  {
+    "rank": 340,
+    "title": "SeeYouAgain(feat.CharliePuth)",
+    "artist": "WizKhalifa",
+    "genre": "hiphop",
+    "year": 2015,
+    "bpm": 80
+  },
+  {
+    "rank": 341,
+    "title": "Heroes(wecouldbe)",
+    "artist": "Alesso",
+    "genre": "bigroom",
+    "year": 2015,
+    "bpm": 126
+  },
+  {
+    "rank": 342,
+    "title": "FeelTheLight-FromThe\"Home\"Soundtrack",
+    "artist": "JenniferLopez",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 156
+  },
+  {
+    "rank": 343,
+    "title": "Perfect",
+    "artist": "OneDirection",
+    "genre": "boyband",
+    "year": 2015,
+    "bpm": 100
+  },
+  {
+    "rank": 344,
+    "title": "Ghosttown",
+    "artist": "Madonna",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 79
+  },
+  {
+    "rank": 345,
+    "title": "BangMyHead(feat.Sia&FettyWap)",
+    "artist": "DavidGuetta",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 108
+  },
+  {
+    "rank": 346,
+    "title": "Bloodstream",
+    "artist": "EdSheeran",
+    "genre": "pop",
+    "year": 2015,
+    "bpm": 89
+  },
+  {
+    "rank": 347,
+    "title": "LivingForLove",
+    "artist": "Madonna",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 123
+  },
+  {
+    "rank": 348,
+    "title": "BabyDon'tLie",
+    "artist": "GwenStefani",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 100
+  },
+  {
+    "rank": 349,
+    "title": "Don'tBesoHardonYourself",
+    "artist": "JessGlynne",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 120
+  },
+  {
+    "rank": 350,
+    "title": "StealMyGirl",
+    "artist": "OneDirection",
+    "genre": "boyband",
+    "year": 2015,
+    "bpm": 77
+  },
+  {
+    "rank": 351,
+    "title": "Celebrate(FromtheOriginalMotionPicture\"PenguinsofMadagascar\")",
+    "artist": "Pitbull",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 127
+  },
+  {
+    "rank": 352,
+    "title": "WeAreHere",
+    "artist": "AliciaKeys",
+    "genre": "hippop",
+    "year": 2015,
+    "bpm": 93
+  },
+  {
+    "rank": 353,
+    "title": "StJude",
+    "artist": "Florence+TheMachine",
+    "genre": "artpop",
+    "year": 2015,
+    "bpm": 117
+  },
+  {
+    "rank": 354,
+    "title": "Yesterday(feat.BebeRexha)",
+    "artist": "DavidGuetta",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 128
+  },
+  {
+    "rank": 355,
+    "title": "TimeofOurLives",
+    "artist": "Pitbull",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 124
+  },
+  {
+    "rank": 356,
+    "title": "Sparks",
+    "artist": "HilaryDuff",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 122
+  },
+  {
+    "rank": 357,
+    "title": "Mr.PutItDown",
+    "artist": "RickyMartin",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 128
+  },
+  {
+    "rank": 358,
+    "title": "LegendaryLovers",
+    "artist": "KatyPerry",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 126
+  },
+  {
+    "rank": 359,
+    "title": "SparkTheFire",
+    "artist": "GwenStefani",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 120
+  },
+  {
+    "rank": 360,
+    "title": "RunRunRun",
+    "artist": "KellyClarkson",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 112
+  },
+  {
+    "rank": 361,
+    "title": "LetMeBeYourLover",
+    "artist": "EnriqueIglesias",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 112
+  },
+  {
+    "rank": 362,
+    "title": "Dangerous",
+    "artist": "JenniferHudson",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 109
+  },
+  {
+    "rank": 363,
+    "title": "L.A.LOVE(lala)",
+    "artist": "Fergie",
+    "genre": "dancepop",
+    "year": 2015,
+    "bpm": 202
+  },
+  {
+    "rank": 364,
+    "title": "TheHills",
+    "artist": "TheWeeknd",
+    "genre": "canadiancontemporaryr&b",
+    "year": 2016,
+    "bpm": 113
+  },
+  {
+    "rank": 365,
+    "title": "LoveYourself",
+    "artist": "JustinBieber",
+    "genre": "canadianpop",
+    "year": 2016,
+    "bpm": 100
+  },
+  {
+    "rank": 366,
+    "title": "CakeByTheOcean",
+    "artist": "DNCE",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 119
+  },
+  {
+    "rank": 367,
+    "title": "Don'tLetMeDown",
+    "artist": "TheChainsmokers",
+    "genre": "electropop",
+    "year": 2016,
+    "bpm": 160
+  },
+  {
+    "rank": 368,
+    "title": "IntheNameofLove",
+    "artist": "MartinGarrix",
+    "genre": "bigroom",
+    "year": 2016,
+    "bpm": 134
+  },
+  {
+    "rank": 369,
+    "title": "IntoYou",
+    "artist": "ArianaGrande",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 108
+  },
+  {
+    "rank": 370,
+    "title": "ThisIsWhatYouCameFor",
+    "artist": "CalvinHarris",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 124
+  },
+  {
+    "rank": 371,
+    "title": "MillionReasons",
+    "artist": "LadyGaga",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 130
+  },
+  {
+    "rank": 372,
+    "title": "NeededMe",
+    "artist": "Rihanna",
+    "genre": "barbadianpop",
+    "year": 2016,
+    "bpm": 111
+  },
+  {
+    "rank": 373,
+    "title": "7Years",
+    "artist": "LukasGraham",
+    "genre": "danishpop",
+    "year": 2016,
+    "bpm": 120
+  },
+  {
+    "rank": 374,
+    "title": "CAN'TSTOPTHEFEELING!(OriginalSongfromDreamWorksAnimation's\"TROLLS\")",
+    "artist": "JustinTimberlake",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 113
+  },
+  {
+    "rank": 375,
+    "title": "WorkfromHome(feat.TyDolla$ign)",
+    "artist": "FifthHarmony",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 105
+  },
+  {
+    "rank": 376,
+    "title": "ScarsToYourBeautiful",
+    "artist": "AlessiaCara",
+    "genre": "canadiancontemporaryr&b",
+    "year": 2016,
+    "bpm": 97
+  },
+  {
+    "rank": 377,
+    "title": "LikeI'mGonnaLoseYou(feat.JohnLegend)",
+    "artist": "MeghanTrainor",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 108
+  },
+  {
+    "rank": 378,
+    "title": "Work",
+    "artist": "Rihanna",
+    "genre": "barbadianpop",
+    "year": 2016,
+    "bpm": 92
+  },
+  {
+    "rank": 379,
+    "title": "Stitches",
+    "artist": "ShawnMendes",
+    "genre": "canadianpop",
+    "year": 2016,
+    "bpm": 150
+  },
+  {
+    "rank": 380,
+    "title": "Me,Myself&I",
+    "artist": "G-Eazy",
+    "genre": "hiphop",
+    "year": 2016,
+    "bpm": 112
+  },
+  {
+    "rank": 381,
+    "title": "ITookAPillInIbiza-SeebRemix",
+    "artist": "MikePosner",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 102
+  },
+  {
+    "rank": 382,
+    "title": "DangerousWoman",
+    "artist": "ArianaGrande",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 134
+  },
+  {
+    "rank": 383,
+    "title": "Starving",
+    "artist": "HaileeSteinfeld",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 100
+  },
+  {
+    "rank": 384,
+    "title": "ShoutOuttoMyEx",
+    "artist": "LittleMix",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 126
+  },
+  {
+    "rank": 385,
+    "title": "ElectricLove",
+    "artist": "BØRNS",
+    "genre": "electropop",
+    "year": 2016,
+    "bpm": 120
+  },
+  {
+    "rank": 386,
+    "title": "Confident",
+    "artist": "DemiLovato",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 130
+  },
+  {
+    "rank": 387,
+    "title": "TooGood",
+    "artist": "Drake",
+    "genre": "canadianhiphop",
+    "year": 2016,
+    "bpm": 118
+  },
+  {
+    "rank": 388,
+    "title": "Roses",
+    "artist": "TheChainsmokers",
+    "genre": "electropop",
+    "year": 2016,
+    "bpm": 100
+  },
+  {
+    "rank": 389,
+    "title": "ColdWater(feat.JustinBieber&MØ)",
+    "artist": "MajorLazer",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 93
+  },
+  {
+    "rank": 390,
+    "title": "MeToo",
+    "artist": "MeghanTrainor",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 124
+  },
+  {
+    "rank": 391,
+    "title": "LightItUp(feat.Nyla&FuseODG)[Remix]",
+    "artist": "MajorLazer",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 108
+  },
+  {
+    "rank": 392,
+    "title": "Ain'tYourMama",
+    "artist": "JenniferLopez",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 120
+  },
+  {
+    "rank": 393,
+    "title": "Close",
+    "artist": "NickJonas",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 124
+  },
+  {
+    "rank": 394,
+    "title": "Toothbrush",
+    "artist": "DNCE",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 105
+  },
+  {
+    "rank": 395,
+    "title": "AllWeKnow",
+    "artist": "TheChainsmokers",
+    "genre": "electropop",
+    "year": 2016,
+    "bpm": 90
+  },
+  {
+    "rank": 396,
+    "title": "FinalSong",
+    "artist": "MØ",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 105
+  },
+  {
+    "rank": 397,
+    "title": "Company",
+    "artist": "JustinBieber",
+    "genre": "canadianpop",
+    "year": 2016,
+    "bpm": 95
+  },
+  {
+    "rank": 398,
+    "title": "HandsToMyself",
+    "artist": "SelenaGomez",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 111
+  },
+  {
+    "rank": 399,
+    "title": "AllIAsk",
+    "artist": "Adele",
+    "genre": "britishsoul",
+    "year": 2016,
+    "bpm": 142
+  },
+  {
+    "rank": 400,
+    "title": "JustLikeFire(FromtheOriginalMotionPicture\"AliceThroughTheLookingGlass\")",
+    "artist": "P!nk",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 163
+  },
+  {
+    "rank": 401,
+    "title": "NO",
+    "artist": "MeghanTrainor",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 92
+  },
+  {
+    "rank": 402,
+    "title": "KillEmWithKindness",
+    "artist": "SelenaGomez",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 120
+  },
+  {
+    "rank": 403,
+    "title": "CoolGirl",
+    "artist": "ToveLo",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 102
+  },
+  {
+    "rank": 404,
+    "title": "Runnin'(LoseItAll)",
+    "artist": "NaughtyBoy",
+    "genre": "tropicalhouse",
+    "year": 2016,
+    "bpm": 139
+  },
+  {
+    "rank": 405,
+    "title": "Here",
+    "artist": "AlessiaCara",
+    "genre": "canadiancontemporaryr&b",
+    "year": 2016,
+    "bpm": 120
+  },
+  {
+    "rank": 406,
+    "title": "PerfectIllusion",
+    "artist": "LadyGaga",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 125
+  },
+  {
+    "rank": 407,
+    "title": "PILLOWTALK",
+    "artist": "ZAYN",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 125
+  },
+  {
+    "rank": 408,
+    "title": "OutOfTheWoods",
+    "artist": "TaylorSwift",
+    "genre": "pop",
+    "year": 2016,
+    "bpm": 92
+  },
+  {
+    "rank": 409,
+    "title": "Rise",
+    "artist": "KatyPerry",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 101
+  },
+  {
+    "rank": 410,
+    "title": "WhereverIGo",
+    "artist": "OneRepublic",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 100
+  },
+  {
+    "rank": 411,
+    "title": "BodySay",
+    "artist": "DemiLovato",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 87
+  },
+  {
+    "rank": 412,
+    "title": "Don'tBeAFool",
+    "artist": "ShawnMendes",
+    "genre": "canadianpop",
+    "year": 2016,
+    "bpm": 175
+  },
+  {
+    "rank": 413,
+    "title": "LIKEIWOULD",
+    "artist": "ZAYN",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 113
+  },
+  {
+    "rank": 414,
+    "title": "CheapThrills",
+    "artist": "Sia",
+    "genre": "australiandance",
+    "year": 2016,
+    "bpm": 90
+  },
+  {
+    "rank": 415,
+    "title": "IGotYou",
+    "artist": "BebeRexha",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 98
+  },
+  {
+    "rank": 416,
+    "title": "RunAwayWithMe",
+    "artist": "CarlyRaeJepsen",
+    "genre": "canadianpop",
+    "year": 2016,
+    "bpm": 119
+  },
+  {
+    "rank": 417,
+    "title": "Cruel(feat.ZAYN)",
+    "artist": "Snakehips",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 110
+  },
+  {
+    "rank": 418,
+    "title": "SendMyLove(ToYourNewLover)",
+    "artist": "Adele",
+    "genre": "britishsoul",
+    "year": 2016,
+    "bpm": 164
+  },
+  {
+    "rank": 419,
+    "title": "WTF(WhereTheyFrom)",
+    "artist": "MissyElliott",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 120
+  },
+  {
+    "rank": 420,
+    "title": "Desire",
+    "artist": "Years&Years",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 126
+  },
+  {
+    "rank": 421,
+    "title": "WhenWeWereYoung",
+    "artist": "Adele",
+    "genre": "britishsoul",
+    "year": 2016,
+    "bpm": 144
+  },
+  {
+    "rank": 422,
+    "title": "IKnowWhatYouDidLastSummer",
+    "artist": "ShawnMendes",
+    "genre": "canadianpop",
+    "year": 2016,
+    "bpm": 114
+  },
+  {
+    "rank": 423,
+    "title": "WishThatYouWereHere-FromMissPeregrinesHomeforPeculiarChildrenOriginalMotionPicture",
+    "artist": "Florence+TheMachine",
+    "genre": "artpop",
+    "year": 2016,
+    "bpm": 94
+  },
+  {
+    "rank": 424,
+    "title": "Hurts",
+    "artist": "EmeliSandé",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 106
+  },
+  {
+    "rank": 425,
+    "title": "Change",
+    "artist": "ChristinaAguilera",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 82
+  },
+  {
+    "rank": 426,
+    "title": "MakeMe...(feat.G-Eazy)",
+    "artist": "BritneySpears",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 123
+  },
+  {
+    "rank": 427,
+    "title": "KeepingYourHeadUp",
+    "artist": "Birdy",
+    "genre": "neomellow",
+    "year": 2016,
+    "bpm": 122
+  },
+  {
+    "rank": 428,
+    "title": "TrueColors",
+    "artist": "Zedd",
+    "genre": "complextro",
+    "year": 2016,
+    "bpm": 126
+  },
+  {
+    "rank": 429,
+    "title": "MakeMeLikeYou",
+    "artist": "GwenStefani",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 118
+  },
+  {
+    "rank": 430,
+    "title": "ChampagneProblems",
+    "artist": "NickJonas",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 108
+  },
+  {
+    "rank": 431,
+    "title": "Blown",
+    "artist": "DNCE",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 130
+  },
+  {
+    "rank": 432,
+    "title": "Start",
+    "artist": "JohnLegend",
+    "genre": "neomellow",
+    "year": 2016,
+    "bpm": 110
+  },
+  {
+    "rank": 433,
+    "title": "PepRally",
+    "artist": "MissyElliott",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 90
+  },
+  {
+    "rank": 434,
+    "title": "Higher",
+    "artist": "CarlyRaeJepsen",
+    "genre": "canadianpop",
+    "year": 2016,
+    "bpm": 114
+  },
+  {
+    "rank": 435,
+    "title": "Invitation",
+    "artist": "BritneySpears",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 112
+  },
+  {
+    "rank": 436,
+    "title": "OneCallAway(feat.Tyga)-Remix",
+    "artist": "CharliePuth",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 91
+  },
+  {
+    "rank": 437,
+    "title": "BeautifulBirds(feat.Birdy)",
+    "artist": "Passenger",
+    "genre": "folk-pop",
+    "year": 2016,
+    "bpm": 86
+  },
+  {
+    "rank": 438,
+    "title": "LittleLies",
+    "artist": "HilaryDuff",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 124
+  },
+  {
+    "rank": 439,
+    "title": "DoYouWannaComeOver?",
+    "artist": "BritneySpears",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 121
+  },
+  {
+    "rank": 440,
+    "title": "BURNITUP!",
+    "artist": "JanetJackson",
+    "genre": "dancepop",
+    "year": 2016,
+    "bpm": 123
+  },
+  {
+    "rank": 441,
+    "title": "Picky-Remix",
+    "artist": "JoeyMontana",
+    "genre": "latin",
+    "year": 2016,
+    "bpm": 186
+  },
+  {
+    "rank": 442,
+    "title": "BehindYourBack",
+    "artist": "NellyFurtado",
+    "genre": "canadianlatin",
+    "year": 2016,
+    "bpm": 98
+  },
+  {
+    "rank": 443,
+    "title": "MillionYearsAgo",
+    "artist": "Adele",
+    "genre": "britishsoul",
+    "year": 2016,
+    "bpm": 0
+  },
+  {
+    "rank": 444,
+    "title": "ShapeofYou",
+    "artist": "EdSheeran",
+    "genre": "pop",
+    "year": 2017,
+    "bpm": 96
+  },
+  {
+    "rank": 445,
+    "title": "Closer",
+    "artist": "TheChainsmokers",
+    "genre": "electropop",
+    "year": 2017,
+    "bpm": 95
+  },
+  {
+    "rank": 446,
+    "title": "Starboy",
+    "artist": "TheWeeknd",
+    "genre": "canadiancontemporaryr&b",
+    "year": 2017,
+    "bpm": 186
+  },
+  {
+    "rank": 447,
+    "title": "TreatYouBetter",
+    "artist": "ShawnMendes",
+    "genre": "canadianpop",
+    "year": 2017,
+    "bpm": 83
+  },
+  {
+    "rank": 448,
+    "title": "That'sWhatILike",
+    "artist": "BrunoMars",
+    "genre": "pop",
+    "year": 2017,
+    "bpm": 134
+  },
+  {
+    "rank": 449,
+    "title": "LetMeLoveYou",
+    "artist": "DJSnake",
+    "genre": "electronictrap",
+    "year": 2017,
+    "bpm": 100
+  },
+  {
+    "rank": 450,
+    "title": "IFeelItComing",
+    "artist": "TheWeeknd",
+    "genre": "canadiancontemporaryr&b",
+    "year": 2017,
+    "bpm": 93
+  },
+  {
+    "rank": 451,
+    "title": "Mercy",
+    "artist": "ShawnMendes",
+    "genre": "canadianpop",
+    "year": 2017,
+    "bpm": 148
+  },
+  {
+    "rank": 452,
+    "title": "SideToSide",
+    "artist": "ArianaGrande",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 159
+  },
+  {
+    "rank": 453,
+    "title": "Stay",
+    "artist": "Zedd",
+    "genre": "complextro",
+    "year": 2017,
+    "bpm": 102
+  },
+  {
+    "rank": 454,
+    "title": "ItAin'tMe(withSelenaGomez)",
+    "artist": "Kygo",
+    "genre": "edm",
+    "year": 2017,
+    "bpm": 100
+  },
+  {
+    "rank": 455,
+    "title": "Malibu",
+    "artist": "MileyCyrus",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 140
+  },
+  {
+    "rank": 456,
+    "title": "SomethingJustLikeThis",
+    "artist": "TheChainsmokers",
+    "genre": "electropop",
+    "year": 2017,
+    "bpm": 103
+  },
+  {
+    "rank": 457,
+    "title": "Rockabye(feat.SeanPaul&Anne-Marie)",
+    "artist": "CleanBandit",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 102
+  },
+  {
+    "rank": 458,
+    "title": "IDontWannaLiveForever(FiftyShadesDarker)",
+    "artist": "ZAYN",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 118
+  },
+  {
+    "rank": 459,
+    "title": "MyWay",
+    "artist": "CalvinHarris",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 120
+  },
+  {
+    "rank": 460,
+    "title": "I'mtheOne(feat.JustinBieber,Quavo,ChancetheRapper&LilWayne)",
+    "artist": "DJKhaled",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 81
+  },
+  {
+    "rank": 461,
+    "title": "Praying",
+    "artist": "Kesha",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 73
+  },
+  {
+    "rank": 462,
+    "title": "Despacito-Remix",
+    "artist": "LuisFonsi",
+    "genre": "latin",
+    "year": 2017,
+    "bpm": 178
+  },
+  {
+    "rank": 463,
+    "title": "TheGreatest",
+    "artist": "Sia",
+    "genre": "australiandance",
+    "year": 2017,
+    "bpm": 192
+  },
+  {
+    "rank": 464,
+    "title": "ThereforYou",
+    "artist": "MartinGarrix",
+    "genre": "bigroom",
+    "year": 2017,
+    "bpm": 106
+  },
+  {
+    "rank": 465,
+    "title": "Paris",
+    "artist": "TheChainsmokers",
+    "genre": "electropop",
+    "year": 2017,
+    "bpm": 100
+  },
+  {
+    "rank": 466,
+    "title": "CryingintheClub",
+    "artist": "CamilaCabello",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 85
+  },
+  {
+    "rank": 467,
+    "title": "Mama",
+    "artist": "JonasBlue",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 104
+  },
+  {
+    "rank": 468,
+    "title": "Slide(feat.FrankOcean&Migos)",
+    "artist": "CalvinHarris",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 104
+  },
+  {
+    "rank": 469,
+    "title": "SwishSwish",
+    "artist": "KatyPerry",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 120
+  },
+  {
+    "rank": 470,
+    "title": "ChainedToTheRhythm",
+    "artist": "KatyPerry",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 190
+  },
+  {
+    "rank": 471,
+    "title": "Cold(feat.Future)",
+    "artist": "Maroon5",
+    "genre": "pop",
+    "year": 2017,
+    "bpm": 100
+  },
+  {
+    "rank": 472,
+    "title": "Love",
+    "artist": "LanaDelRey",
+    "genre": "artpop",
+    "year": 2017,
+    "bpm": 99
+  },
+  {
+    "rank": 473,
+    "title": "ReggaetónLento(Remix)",
+    "artist": "CNCO",
+    "genre": "boyband",
+    "year": 2017,
+    "bpm": 94
+  },
+  {
+    "rank": 474,
+    "title": "AllIAsk",
+    "artist": "Adele",
+    "genre": "britishsoul",
+    "year": 2017,
+    "bpm": 142
+  },
+  {
+    "rank": 475,
+    "title": "FirstTime",
+    "artist": "Kygo",
+    "genre": "edm",
+    "year": 2017,
+    "bpm": 90
+  },
+  {
+    "rank": 476,
+    "title": "TheCure",
+    "artist": "LadyGaga",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 100
+  },
+  {
+    "rank": 477,
+    "title": "HowFarI'llGo-From\"Moana",
+    "artist": "AlessiaCara",
+    "genre": "canadiancontemporaryr&b",
+    "year": 2017,
+    "bpm": 181
+  },
+  {
+    "rank": 478,
+    "title": "BodakYellow",
+    "artist": "CardiB",
+    "genre": "pop",
+    "year": 2017,
+    "bpm": 125
+  },
+  {
+    "rank": 479,
+    "title": "RichLove(withSeeb)",
+    "artist": "OneRepublic",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 105
+  },
+  {
+    "rank": 480,
+    "title": "Tired",
+    "artist": "AlanWalker",
+    "genre": "electrohouse",
+    "year": 2017,
+    "bpm": 124
+  },
+  {
+    "rank": 481,
+    "title": "CameHereforLove",
+    "artist": "Sigala",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 125
+  },
+  {
+    "rank": 482,
+    "title": "24KMagic",
+    "artist": "BrunoMars",
+    "genre": "pop",
+    "year": 2017,
+    "bpm": 107
+  },
+  {
+    "rank": 483,
+    "title": "StripThatDown(feat.Quavo)",
+    "artist": "LiamPayne",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 106
+  },
+  {
+    "rank": 484,
+    "title": "CutToTheFeeling",
+    "artist": "CarlyRaeJepsen",
+    "genre": "canadianpop",
+    "year": 2017,
+    "bpm": 115
+  },
+  {
+    "rank": 485,
+    "title": "OK-SpotifyVersion",
+    "artist": "RobinSchulz",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 122
+  },
+  {
+    "rank": 486,
+    "title": "Bonappétit",
+    "artist": "KatyPerry",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 106
+  },
+  {
+    "rank": 487,
+    "title": "SummerBummer(feat.A$APRocky&PlayboiCarti)",
+    "artist": "LanaDelRey",
+    "genre": "artpop",
+    "year": 2017,
+    "bpm": 135
+  },
+  {
+    "rank": 488,
+    "title": "GetLow(withLiamPayne)",
+    "artist": "Zedd",
+    "genre": "complextro",
+    "year": 2017,
+    "bpm": 108
+  },
+  {
+    "rank": 489,
+    "title": "KissingStrangers",
+    "artist": "DNCE",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 120
+  },
+  {
+    "rank": 490,
+    "title": "SlowHands",
+    "artist": "NiallHoran",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 86
+  },
+  {
+    "rank": 491,
+    "title": "YoungerNow",
+    "artist": "MileyCyrus",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 122
+  },
+  {
+    "rank": 492,
+    "title": "BodyMoves",
+    "artist": "DNCE",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 102
+  },
+  {
+    "rank": 493,
+    "title": "Reality(feat.JanieckDevy)-RadioEdit",
+    "artist": "LostFrequencies",
+    "genre": "belgianedm",
+    "year": 2017,
+    "bpm": 122
+  },
+  {
+    "rank": 494,
+    "title": "Angel",
+    "artist": "FifthHarmony",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 124
+  },
+  {
+    "rank": 495,
+    "title": "Touch(feat.KidInk)",
+    "artist": "LittleMix",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 102
+  },
+  {
+    "rank": 496,
+    "title": "WeDon'tTalkAnymore-DROELOERemix",
+    "artist": "CharliePuth",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 100
+  },
+  {
+    "rank": 497,
+    "title": "LoveIncredible(feat.CamilaCabello)",
+    "artist": "CashmereCat",
+    "genre": "downtempo",
+    "year": 2017,
+    "bpm": 167
+  },
+  {
+    "rank": 498,
+    "title": "NoVacancy(withSebastiánYatra)",
+    "artist": "OneRepublic",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 100
+  },
+  {
+    "rank": 499,
+    "title": "RichBoy",
+    "artist": "Galantis",
+    "genre": "bigroom",
+    "year": 2017,
+    "bpm": 110
+  },
+  {
+    "rank": 500,
+    "title": "LustforLife(withTheWeeknd)",
+    "artist": "LanaDelRey",
+    "genre": "artpop",
+    "year": 2017,
+    "bpm": 100
+  },
+  {
+    "rank": 501,
+    "title": "Greenlight(feat.FloRida&LunchMoneyLewis)",
+    "artist": "Pitbull",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 115
+  },
+  {
+    "rank": 502,
+    "title": "Influence",
+    "artist": "ToveLo",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 105
+  },
+  {
+    "rank": 503,
+    "title": "RememberIToldYou",
+    "artist": "NickJonas",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 113
+  },
+  {
+    "rank": 504,
+    "title": "Messin'Around",
+    "artist": "Pitbull",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 158
+  },
+  {
+    "rank": 505,
+    "title": "WaterUndertheBridge",
+    "artist": "Adele",
+    "genre": "britishsoul",
+    "year": 2017,
+    "bpm": 95
+  },
+  {
+    "rank": 506,
+    "title": "FreeMe",
+    "artist": "Sia",
+    "genre": "australiandance",
+    "year": 2017,
+    "bpm": 87
+  },
+  {
+    "rank": 507,
+    "title": "KissingStrangers-Remix",
+    "artist": "DNCE",
+    "genre": "dancepop",
+    "year": 2017,
+    "bpm": 120
+  },
+  {
+    "rank": 508,
+    "title": "ALIENS",
+    "artist": "Coldplay",
+    "genre": "permanentwave",
+    "year": 2017,
+    "bpm": 148
+  },
+  {
+    "rank": 509,
+    "title": "OneKiss(withDuaLipa)",
+    "artist": "CalvinHarris",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 124
+  },
+  {
+    "rank": 510,
+    "title": "Havana(feat.YoungThug)",
+    "artist": "CamilaCabello",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 105
+  },
+  {
+    "rank": 511,
+    "title": "ILikeIt",
+    "artist": "CardiB",
+    "genre": "pop",
+    "year": 2018,
+    "bpm": 136
+  },
+  {
+    "rank": 512,
+    "title": "NewRules",
+    "artist": "DuaLipa",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 116
+  },
+  {
+    "rank": 513,
+    "title": "There'sNothingHoldin'MeBack",
+    "artist": "ShawnMendes",
+    "genre": "canadianpop",
+    "year": 2018,
+    "bpm": 122
+  },
+  {
+    "rank": 514,
+    "title": "notearslefttocry",
+    "artist": "ArianaGrande",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 122
+  },
+  {
+    "rank": 515,
+    "title": "IDGAF",
+    "artist": "DuaLipa",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 97
+  },
+  {
+    "rank": 516,
+    "title": "InMyBlood",
+    "artist": "ShawnMendes",
+    "genre": "canadianpop",
+    "year": 2018,
+    "bpm": 140
+  },
+  {
+    "rank": 517,
+    "title": "Wolves",
+    "artist": "SelenaGomez",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 125
+  },
+  {
+    "rank": 518,
+    "title": "DuskTillDawn-RadioEdit",
+    "artist": "ZAYN",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 180
+  },
+  {
+    "rank": 519,
+    "title": "Attention",
+    "artist": "CharliePuth",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 100
+  },
+  {
+    "rank": 520,
+    "title": "Electricity(withDuaLipa)",
+    "artist": "SilkCity",
+    "genre": "edm",
+    "year": 2018,
+    "bpm": 118
+  },
+  {
+    "rank": 521,
+    "title": "LoveOnTheBrain",
+    "artist": "Rihanna",
+    "genre": "barbadianpop",
+    "year": 2018,
+    "bpm": 172
+  },
+  {
+    "rank": 522,
+    "title": "LetMeGo(withAlesso,FloridaGeorgiaLine&watt)",
+    "artist": "HaileeSteinfeld",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 103
+  },
+  {
+    "rank": 523,
+    "title": "Silence",
+    "artist": "Marshmello",
+    "genre": "brostep",
+    "year": 2018,
+    "bpm": 142
+  },
+  {
+    "rank": 524,
+    "title": "SorryNotSorry",
+    "artist": "DemiLovato",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 144
+  },
+  {
+    "rank": 525,
+    "title": "Shallow-RadioEdit",
+    "artist": "LadyGaga",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 96
+  },
+  {
+    "rank": 526,
+    "title": "TheseDays",
+    "artist": "Rudimental",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 92
+  },
+  {
+    "rank": 527,
+    "title": "WhatLoversDo(feat.SZA)",
+    "artist": "Maroon5",
+    "genre": "pop",
+    "year": 2018,
+    "bpm": 110
+  },
+  {
+    "rank": 528,
+    "title": "Finesse-Remix;feat.CardiB",
+    "artist": "BrunoMars",
+    "genre": "pop",
+    "year": 2018,
+    "bpm": 105
+  },
+  {
+    "rank": 529,
+    "title": "PerfectDuet(EdSheeran&Beyoncé)",
+    "artist": "EdSheeran",
+    "genre": "pop",
+    "year": 2018,
+    "bpm": 95
+  },
+  {
+    "rank": 530,
+    "title": "BadAtLove",
+    "artist": "Halsey",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 118
+  },
+  {
+    "rank": 531,
+    "title": "Him&I(withHalsey)",
+    "artist": "G-Eazy",
+    "genre": "hiphop",
+    "year": 2018,
+    "bpm": 88
+  },
+  {
+    "rank": 532,
+    "title": "Friends(withBloodPop®)",
+    "artist": "JustinBieber",
+    "genre": "canadianpop",
+    "year": 2018,
+    "bpm": 105
+  },
+  {
+    "rank": 533,
+    "title": "WildThoughts(feat.Rihanna&BrysonTiller)",
+    "artist": "DJKhaled",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 98
+  },
+  {
+    "rank": 534,
+    "title": "MyMyMy!",
+    "artist": "TroyeSivan",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 103
+  },
+  {
+    "rank": 535,
+    "title": "CapitalLetters",
+    "artist": "HaileeSteinfeld",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 100
+  },
+  {
+    "rank": 536,
+    "title": "SickBoy",
+    "artist": "TheChainsmokers",
+    "genre": "electropop",
+    "year": 2018,
+    "bpm": 90
+  },
+  {
+    "rank": 537,
+    "title": "Tequila",
+    "artist": "Dan+Shay",
+    "genre": "contemporarycountry",
+    "year": 2018,
+    "bpm": 86
+  },
+  {
+    "rank": 538,
+    "title": "LookWhatYouMadeMeDo",
+    "artist": "TaylorSwift",
+    "genre": "pop",
+    "year": 2018,
+    "bpm": 128
+  },
+  {
+    "rank": 539,
+    "title": "Youth(feat.Khalid)",
+    "artist": "ShawnMendes",
+    "genre": "canadianpop",
+    "year": 2018,
+    "bpm": 100
+  },
+  {
+    "rank": 540,
+    "title": "BadLiar",
+    "artist": "SelenaGomez",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 121
+  },
+  {
+    "rank": 541,
+    "title": "Anywhere",
+    "artist": "RitaOra",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 107
+  },
+  {
+    "rank": 542,
+    "title": "SaySomething",
+    "artist": "JustinTimberlake",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 97
+  },
+  {
+    "rank": 543,
+    "title": "Chun-Li",
+    "artist": "NickiMinaj",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 129
+  },
+  {
+    "rank": 544,
+    "title": "SignoftheTimes",
+    "artist": "HarryStyles",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 120
+  },
+  {
+    "rank": 545,
+    "title": "Familiar",
+    "artist": "LiamPayne",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 93
+  },
+  {
+    "rank": 546,
+    "title": "LetMe",
+    "artist": "ZAYN",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 168
+  },
+  {
+    "rank": 547,
+    "title": "Supernova",
+    "artist": "AnselElgort",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 140
+  },
+  {
+    "rank": 548,
+    "title": "Nervous",
+    "artist": "ShawnMendes",
+    "genre": "canadianpop",
+    "year": 2018,
+    "bpm": 122
+  },
+  {
+    "rank": 549,
+    "title": "FirstTime",
+    "artist": "Kygo",
+    "genre": "edm",
+    "year": 2018,
+    "bpm": 90
+  },
+  {
+    "rank": 550,
+    "title": "EndGame",
+    "artist": "TaylorSwift",
+    "genre": "pop",
+    "year": 2018,
+    "bpm": 159
+  },
+  {
+    "rank": 551,
+    "title": "MiGente(feat.Beyoncé)",
+    "artist": "JBalvin",
+    "genre": "latin",
+    "year": 2018,
+    "bpm": 105
+  },
+  {
+    "rank": 552,
+    "title": "Lemon",
+    "artist": "N.E.R.D",
+    "genre": "hiphop",
+    "year": 2018,
+    "bpm": 95
+  },
+  {
+    "rank": 553,
+    "title": "ForYou(WithRitaOra)",
+    "artist": "LiamPayne",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 113
+  },
+  {
+    "rank": 554,
+    "title": "WantTo",
+    "artist": "DuaLipa",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 92
+  },
+  {
+    "rank": 555,
+    "title": "WhatINeed(feat.Kehlani)",
+    "artist": "HayleyKiyoko",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 104
+  },
+  {
+    "rank": 556,
+    "title": "Wait",
+    "artist": "Maroon5",
+    "genre": "pop",
+    "year": 2018,
+    "bpm": 126
+  },
+  {
+    "rank": 557,
+    "title": "WhatAboutUs",
+    "artist": "P!nk",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 114
+  },
+  {
+    "rank": 558,
+    "title": "KissingStrangers",
+    "artist": "DNCE",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 120
+  },
+  {
+    "rank": 559,
+    "title": "2U(feat.JustinBieber)",
+    "artist": "DavidGuetta",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 145
+  },
+  {
+    "rank": 560,
+    "title": "WalkOnWater(feat.Beyoncé)",
+    "artist": "Eminem",
+    "genre": "detroithiphop",
+    "year": 2018,
+    "bpm": 82
+  },
+  {
+    "rank": 561,
+    "title": "ThisTown",
+    "artist": "NiallHoran",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 112
+  },
+  {
+    "rank": 562,
+    "title": "Girls(feat.CardiB,BebeRexha&CharliXCX)",
+    "artist": "RitaOra",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 94
+  },
+  {
+    "rank": 563,
+    "title": "MOVETOMIAMI",
+    "artist": "EnriqueIglesias",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 100
+  },
+  {
+    "rank": 564,
+    "title": "MissYou(withMajorLazer&ToryLanez)",
+    "artist": "CashmereCat",
+    "genre": "downtempo",
+    "year": 2018,
+    "bpm": 100
+  },
+  {
+    "rank": 565,
+    "title": "Filthy",
+    "artist": "JustinTimberlake",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 97
+  },
+  {
+    "rank": 566,
+    "title": "NeverBetheSame-RadioEdit",
+    "artist": "CamilaCabello",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 130
+  },
+  {
+    "rank": 567,
+    "title": "Ferrari",
+    "artist": "BebeRexha",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 77
+  },
+  {
+    "rank": 568,
+    "title": "Supplies",
+    "artist": "JustinTimberlake",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 120
+  },
+  {
+    "rank": 569,
+    "title": "BoomBoom",
+    "artist": "RedOne",
+    "genre": "moroccanpop",
+    "year": 2018,
+    "bpm": 110
+  },
+  {
+    "rank": 570,
+    "title": "...ReadyForIt?-BloodPop®Remix",
+    "artist": "TaylorSwift",
+    "genre": "pop",
+    "year": 2018,
+    "bpm": 160
+  },
+  {
+    "rank": 571,
+    "title": "Drip(feat.Migos)",
+    "artist": "CardiB",
+    "genre": "pop",
+    "year": 2018,
+    "bpm": 130
+  },
+  {
+    "rank": 572,
+    "title": "TellMeYouLoveMe-NOTDRemix",
+    "artist": "DemiLovato",
+    "genre": "dancepop",
+    "year": 2018,
+    "bpm": 102
+  },
+  {
+    "rank": 573,
+    "title": "Memories",
+    "artist": "Maroon5",
+    "genre": "pop",
+    "year": 2019,
+    "bpm": 91
+  },
+  {
+    "rank": 574,
+    "title": "LoseYouToLoveMe",
+    "artist": "SelenaGomez",
+    "genre": "dancepop",
+    "year": 2019,
+    "bpm": 102
+  },
+  {
+    "rank": 575,
+    "title": "SomeoneYouLoved",
+    "artist": "LewisCapaldi",
+    "genre": "pop",
+    "year": 2019,
+    "bpm": 110
+  },
+  {
+    "rank": 576,
+    "title": "Señorita",
+    "artist": "ShawnMendes",
+    "genre": "canadianpop",
+    "year": 2019,
+    "bpm": 117
+  },
+  {
+    "rank": 577,
+    "title": "HowDoYouSleep?",
+    "artist": "SamSmith",
+    "genre": "pop",
+    "year": 2019,
+    "bpm": 111
+  },
+  {
+    "rank": 578,
+    "title": "SouthoftheBorder(feat.CamilaCabello&CardiB)",
+    "artist": "EdSheeran",
+    "genre": "pop",
+    "year": 2019,
+    "bpm": 98
+  },
+  {
+    "rank": 579,
+    "title": "Trampoline(withZAYN)",
+    "artist": "SHAED",
+    "genre": "electropop",
+    "year": 2019,
+    "bpm": 127
+  },
+  {
+    "rank": 580,
+    "title": "Happier",
+    "artist": "Marshmello",
+    "genre": "brostep",
+    "year": 2019,
+    "bpm": 100
+  },
+  {
+    "rank": 581,
+    "title": "TruthHurts",
+    "artist": "Lizzo",
+    "genre": "escaperoom",
+    "year": 2019,
+    "bpm": 158
+  },
+  {
+    "rank": 582,
+    "title": "GoodasHell(feat.ArianaGrande)-Remix",
+    "artist": "Lizzo",
+    "genre": "escaperoom",
+    "year": 2019,
+    "bpm": 96
+  },
+  {
+    "rank": 583,
+    "title": "HigherLove",
+    "artist": "Kygo",
+    "genre": "edm",
+    "year": 2019,
+    "bpm": 104
+  },
+  {
+    "rank": 584,
+    "title": "OnlyHuman",
+    "artist": "JonasBrothers",
+    "genre": "boyband",
+    "year": 2019,
+    "bpm": 94
+  },
+  {
+    "rank": 585,
+    "title": "BeautifulPeople(feat.Khalid)",
+    "artist": "EdSheeran",
+    "genre": "pop",
+    "year": 2019,
+    "bpm": 93
+  },
+  {
+    "rank": 586,
+    "title": "Sucker",
+    "artist": "JonasBrothers",
+    "genre": "boyband",
+    "year": 2019,
+    "bpm": 138
+  },
+  {
+    "rank": 587,
+    "title": "Don'tCallMeUp",
+    "artist": "Mabel",
+    "genre": "dancepop",
+    "year": 2019,
+    "bpm": 99
+  },
+  {
+    "rank": 588,
+    "title": "IDon'tCare(withJustinBieber)",
+    "artist": "EdSheeran",
+    "genre": "pop",
+    "year": 2019,
+    "bpm": 102
+  },
+  {
+    "rank": 589,
+    "title": "Talk(feat.Disclosure)",
+    "artist": "Khalid",
+    "genre": "alternativer&b",
+    "year": 2019,
+    "bpm": 136
+  },
+  {
+    "rank": 590,
+    "title": "Giant(withRag'n'BoneMan)",
+    "artist": "CalvinHarris",
+    "genre": "dancepop",
+    "year": 2019,
+    "bpm": 122
+  },
+  {
+    "rank": 591,
+    "title": "Takeaway",
+    "artist": "TheChainsmokers",
+    "genre": "electropop",
+    "year": 2019,
+    "bpm": 100
+  },
+  {
+    "rank": 592,
+    "title": "AllAroundTheWorld(LaLaLa)",
+    "artist": "R3HAB",
+    "genre": "bigroom",
+    "year": 2019,
+    "bpm": 125
+  },
+  {
+    "rank": 593,
+    "title": "GirlsLikeYou(feat.CardiB)",
+    "artist": "Maroon5",
+    "genre": "pop",
+    "year": 2019,
+    "bpm": 125
+  },
+  {
+    "rank": 594,
+    "title": "CallYouMine",
+    "artist": "TheChainsmokers",
+    "genre": "electropop",
+    "year": 2019,
+    "bpm": 104
+  },
+  {
+    "rank": 595,
+    "title": "NoGuidance(feat.Drake)",
+    "artist": "ChrisBrown",
+    "genre": "dancepop",
+    "year": 2019,
+    "bpm": 93
+  },
+  {
+    "rank": 596,
+    "title": "Antisocial(withTravisScott)",
+    "artist": "EdSheeran",
+    "genre": "pop",
+    "year": 2019,
+    "bpm": 152
+  },
+  {
+    "rank": 597,
+    "title": "TakiTaki(feat.SelenaGomez,Ozuna&CardiB)",
+    "artist": "DJSnake",
+    "genre": "electronictrap",
+    "year": 2019,
+    "bpm": 96
+  },
+  {
+    "rank": 598,
+    "title": "ConCalma-Remix",
+    "artist": "DaddyYankee",
+    "genre": "latin",
+    "year": 2019,
+    "bpm": 94
+  },
+  {
+    "rank": 599,
+    "title": "FindUAgain(feat.CamilaCabello)",
+    "artist": "MarkRonson",
+    "genre": "dancepop",
+    "year": 2019,
+    "bpm": 104
+  },
+  {
+    "rank": 600,
+    "title": "CrossMe(feat.ChancetheRapper&PnBRock)",
+    "artist": "EdSheeran",
+    "genre": "pop",
+    "year": 2019,
+    "bpm": 95
+  }
+]
