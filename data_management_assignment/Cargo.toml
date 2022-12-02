@@ -9,6 +9,9 @@ edition = "2021"
 serde = { version = "1.0.144", features = ["derive"] }
 serde_json = "1.0"
 rpassword = "7.1.0"
-argon2 = "0.4"
-rand_core = { version = "0.6", features = ["std"] }
+rust-argon2 = "1.0"
+rand = "0.8.5"
 tabled = "0.10.0"
+uuid = "1.2.2"
+indoc = "1.0"
+
