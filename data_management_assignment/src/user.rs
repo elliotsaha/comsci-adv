@@ -1,5 +1,5 @@
 // utility functions
-use crate::utils::{table, user_input, Or};
+use crate::utils::{error, exit_header, req_exit, success, table, user_input, Or};
 // Song struct and operations
 use crate::music::{Song, SongController, SongOperations, SongTrait};
 // file system module
@@ -85,27 +85,50 @@ impl UserOperations for UserController {
     }
 
     fn register(&mut self) {
-        let mut input_name = user_input("Username: ");
+        // inform user on how to exit input
+        exit_header();
+
+        let req_username = || user_input("Username: ");
+
+        let mut input_name = req_username();
+
+        // req_exit returns true if user inputs "exit()"
+        if req_exit(&input_name) {
+            return;
+        }
 
         // check if user already exists with input username
         for user_struct in &self.user_vec {
             // while username already exists, repeat input
             while input_name == user_struct.username {
-                println!("Error: User already exists with that username");
-                input_name = user_input("Username: ");
+                error("User already exists with that username");
+
+                input_name = req_username();
+
+                if req_exit(&input_name) {
+                    return;
+                }
             }
         }
 
         // closure that allows for prompting hidden input
-        let pass_fn = || rpassword::prompt_password("Password: ").unwrap();
+        let password_input = || rpassword::prompt_password("Password: ").unwrap();
 
-        let mut input_password = pass_fn();
+        let mut input_password = password_input();
+
+        if req_exit(&input_password) {
+            return;
+        }
 
         // simple password validation
         while input_password.trim().len() < 8 {
-            println!("Error: Password must be greater or equal to 8 characters");
+            error("Password must be greater or equal to 8 characters");
             // prompt for password input again
-            input_password = pass_fn();
+            input_password = password_input();
+
+            if req_exit(&input_password) {
+                return;
+            }
         }
 
         // salt is a randomly generated 100 character alphanumeric string
@@ -148,7 +171,7 @@ impl UserOperations for UserController {
         let unregistered_token = self.token.is_empty();
         // if warning is set and token is empty, print error
         if unregistered_token && warning {
-            print!("You need to be signed in to perform this action")
+            error("You need to be signed in to perform this action");
         }
         // return true if token is available
         !unregistered_token
@@ -166,51 +189,82 @@ impl UserOperations for UserController {
     }
 
     fn signin(&mut self) {
-        let input_name = user_input("Username: ");
+        exit_header();
 
-        // linear search through user_vec
-        for user in &self.user_vec {
-            // user identification
-            if input_name == user.username {
-                // input password closure
-                let pass_fn = |label| rpassword::prompt_password(label).unwrap();
+        let req_username = || user_input("Username: ");
 
-                let mut input_password = pass_fn("Password: ");
+        let mut input_name = req_username();
 
-                // closure to verify if hash matches input password
-                let verifier =
-                    |input: &str| argon2::verify_encoded(&user.password, input.as_bytes()).unwrap();
+        if req_exit(&input_name) {
+            return;
+        }
 
-                // boolean that defines if password was correct or not
-                let mut matches = verifier(&input_password);
+        let mut user_idx = -1;
 
-                // if password wasn't correct, try again until it is
-                while !matches {
-                    input_password = pass_fn("Retry Password: ");
-
-                    matches = verifier(&input_password)
+        while user_idx == -1 {
+            // linear search through user_vec
+            for (idx, user) in self.user_vec.iter().enumerate() {
+                // user identification
+                if input_name == user.username {
+                    user_idx = idx as i32;
                 }
 
-                // if password matches, assign active token to the user id
-                if matches {
-                    println!("Success!");
-                    self.token = user.id.clone();
-
+                if req_exit(&input_name) {
                     return;
                 }
             }
+
+            // print error if index hasn't been changed
+            if user_idx == -1 {
+                error("User does not exist! Please try again.");
+                input_name = req_username();
+            }
         }
 
-        println!("User does not exist! Please try again.");
+        let user = &self.user_vec[user_idx as usize];
+
+        // input password closure
+        let password_input = |label| rpassword::prompt_password(label).unwrap();
+
+        let mut input_password = password_input("Password: ");
+
+        if req_exit(&input_password) {
+            return;
+        }
+        // closure to verify if hash matches input password
+        let verifier =
+            |input: &str| argon2::verify_encoded(&user.password, input.as_bytes()).unwrap();
+
+        // boolean that defines if password was correct or not
+        let mut matches = verifier(&input_password);
+
+        // if password wasn't correct, try again until it is
+        while !matches {
+            input_password = password_input("Retry Password: ");
+
+            if req_exit(&input_password) {
+                return;
+            }
+
+            matches = verifier(&input_password)
+        }
+
+        // if password matches, assign active token to the user id
+        if matches {
+            success();
+            self.token = user.id.clone();
+
+            return;
+        }
     }
 
     fn signout(&mut self) {
         // check if active token is empty or not
         if self.token.is_empty() {
-            println!("Not signed in!");
+            error("Not signed in!");
         } else {
             // empty token
-            println!("Success!");
+            success();
             self.token = String::new();
         }
     }
@@ -226,16 +280,34 @@ impl UserOperations for UserController {
     fn add_favourite(&mut self) {
         // check if authenticated, print error if not
         if self.auth_check(true) {
-            let input_song = user_input("Enter song name: ");
+            exit_header();
+
+            let req_song = || user_input("Enter song name: ");
 
             // use song_controller search method to search for input song
-            let search_vec = &self
-                .song_controller
-                .search("title", Or::String(input_song.to_lowercase()));
+            let song_search = |input: String| {
+                self.song_controller
+                    .search("title", Or::String(input.to_lowercase()))
+            };
 
-            if search_vec.len() == 0 {
-                println!("Song not found!");
+            let mut input_song = req_song();
+
+            if req_exit(&input_song) {
                 return;
+            }
+
+            let mut search_vec = song_search(input_song);
+
+            while search_vec.len() == 0 {
+                error("Song not found!");
+
+                input_song = req_song();
+
+                if req_exit(&input_song) {
+                    return;
+                }
+
+                search_vec = song_search(input_song);
             }
 
             // two songs with the same name could be in the search query. Defaults to first index
@@ -250,6 +322,10 @@ impl UserOperations for UserController {
                     search_vec.len()
                 ));
 
+                if req_exit(&input_favourite) {
+                    return;
+                }
+
                 // human input to access index
                 access_idx = input_favourite.parse::<usize>().unwrap() - 1;
             }
@@ -261,7 +337,7 @@ impl UserOperations for UserController {
             // in vector
             for i in &self.get_user().unwrap().favourites {
                 if i == &favourite {
-                    println!("Song already in favourites");
+                    error("Song already in favourites");
                     return;
                 }
             }
@@ -272,7 +348,7 @@ impl UserOperations for UserController {
             // save to file
             self.save();
 
-            println!("Favourited song!");
+            success();
         }
     }
 
@@ -281,40 +357,69 @@ impl UserOperations for UserController {
         if self.auth_check(true) {
             // check if user has any favourites
             if &self.get_user().unwrap().favourites.len() == &0 {
-                println!("No Favourites");
+                error("No Favourites");
                 return;
             }
 
             // give option for user to choose what song they want to remove by name
             self.display_favourites();
-            let input_song = user_input("Enter Song Name to Remove: ");
 
-            let mut favourite_search = vec![];
+            exit_header();
 
-            // push to favourite_search vector if favourite name is equal to input
-            for favourite in &self.get_user().unwrap().favourites {
-                if favourite.get("title") == Or::String(input_song.to_lowercase()) {
-                    favourite_search.push(favourite);
-                }
-            }
+            let req_remove = || user_input("Enter Song Name to Remove: ");
 
-            // no favourites found from search query
-            if favourite_search.len() == 0 {
-                println!("Error: favourite song not found");
+            let mut input_song = req_remove();
+
+            if req_exit(&input_song) {
                 return;
             }
 
-            // index to remove from favourite_search
+            let mut favourites_vec = vec![];
+
+            // push to favourites_vec vector if favourite name is equal to input
+            // and return length of favourites_vec
+            let mut search_query = |input: String| {
+                for favourite in self.get_user().unwrap().favourites.clone() {
+                    if favourite.get("title") == Or::String(input.to_lowercase()) {
+                        favourites_vec.push(favourite);
+                    }
+                }
+
+                return favourites_vec.len();
+            };
+
+            let mut favourites_count = search_query(input_song);
+
+            // no favourites found from search query
+            while favourites_count == 0 {
+                error("Favourite song not found");
+
+                input_song = req_remove();
+
+                if req_exit(&input_song) {
+                    return;
+                }
+
+                favourites_count = search_query(input_song);
+            }
+
+            // index to remove from favourites_vec
             let mut remove_idx = 0;
 
             // prompt input if multiple favourites by same name
-            if favourite_search.len() > 1 {
-                table(&favourite_search);
+            if favourites_vec.len() > 1 {
+                table(&favourites_vec);
+
+                exit_header();
 
                 let input_favourite = user_input(&format!(
                     "Choose which one to remove (1-{}): ",
-                    favourite_search.len()
+                    favourites_vec.len()
                 ));
+
+                if req_exit(&input_favourite) {
+                    return;
+                }
 
                 // human input to index
                 remove_idx = input_favourite.parse::<usize>().unwrap() - 1;
@@ -326,7 +431,7 @@ impl UserOperations for UserController {
             // save to file
             self.save();
 
-            println!("Successfully removed song from favourites");
+            success();
         }
     }
 }

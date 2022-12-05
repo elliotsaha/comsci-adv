@@ -9,6 +9,24 @@ use tabled::{Style, Table, Tabled};
 // input output module used for taking input from user
 use std::io::{self, Write};
 
+// helper enum to return either string type or number type
+// derived traits are used to compare Or enums
+#[derive(PartialEq, PartialOrd, Eq)]
+pub enum Or {
+    String(String),
+    Num(i16),
+}
+
+// prints formatted error
+pub fn error(label: &str) {
+    println!("\nERR: {}", label);
+}
+
+// prints formatted success statement
+pub fn success() {
+    print!("\nSUCCESS\n");
+}
+
 // helper function to get input from user and return String
 pub fn user_input(title: &str) -> String {
     // prepend and append new lines before printing title
@@ -35,16 +53,21 @@ pub fn table<T: Tabled>(vec: &Vec<T>) {
         println!("\n{table}\n");
     } else {
         // if the vector is empty, print error
-        println!("No results");
+        error("No results");
     }
 }
 
-// helper enum to return either string type or number type
-// derived traits are used to compare Or enums
-#[derive(PartialEq, PartialOrd, Eq)]
-pub enum Or {
-    String(String),
-    Num(i16),
+// if user requests to exit out of input or menu
+pub fn req_exit(input: &str) -> bool {
+    if input == "exit()" {
+        return true;
+    }
+    return false;
+}
+
+// prints header that informs user how to exit input
+pub fn exit_header() {
+    println!("\nType 'exit()' on any input to go back to main menu");
 }
 
 // insertion sort function made specifically for sorting a vector of songs
@@ -87,7 +110,7 @@ pub fn main_menu(song_controller: &mut SongController, user_controller: &mut Use
             "6" => user_controller.remove_favourite(),
             "7" => user_controller.signout(),
             "8" => process::exit(1),
-            _ => println!("Invalid choice"),
+            _ => error("Invalid choice"),
         }
     } else {
         // if not signed in, give options to create account or sign in instead
@@ -108,7 +131,7 @@ pub fn main_menu(song_controller: &mut SongController, user_controller: &mut Use
             "4" => user_controller.signin(),
             "5" => user_controller.register(),
             "6" => process::exit(1),
-            _ => println!("Invalid choice"),
+            _ => error("Invalid choice"),
         }
     }
 }

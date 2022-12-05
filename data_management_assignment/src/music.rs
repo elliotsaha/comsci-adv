@@ -8,7 +8,7 @@ use serde::{Deserialize, Serialize};
 // Tabled trait to signify that a vector of Song structs can be pretty printed
 use tabled::Tabled;
 // util functions
-use crate::utils::{insertion_sort, table, user_input, Or};
+use crate::utils::{error, insertion_sort, table, user_input, Or};
 // prelude functions
 use std::io::prelude::*;
 
@@ -134,7 +134,7 @@ impl SongOperations for SongController {
             // len > 4 because thats the max amount of digits present in a standard year, anything
             // higher may be an attempt to crash the program
             if query_input.len() > 4 {
-                println!("Error: Invalid input!");
+                error("Invalid input");
                 return;
             } else {
                 // Convert input into a number, linear search for input in song data and pretty print the search vector
@@ -152,7 +152,7 @@ impl SongOperations for SongController {
             "3" => str_ord("artist"),
             "4" => str_ord("album"),
             "5" => num_ord("year"),
-            _ => println!("Invalid Operation"),
+            _ => error("Invalid Operation"),
         }
     }
 
@@ -178,7 +178,7 @@ impl SongOperations for SongController {
             "4" => sorted("album"),
             "5" => sorted("year"),
             "6" => process::exit(1),
-            _ => println!("Invalid Operation"),
+            _ => error("Invalid Operation"),
         }
 
         // display vector after sorting
