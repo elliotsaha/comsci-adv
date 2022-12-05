@@ -45,6 +45,11 @@ pub fn user_input(title: &str) -> String {
     input.trim().to_owned()
 }
 
+// helper function to prompt hidden user input
+pub fn hidden_user_input(label: &str) -> String {
+    rpassword::prompt_password(format!("\n{label}\n")).unwrap()
+}
+
 // helper function to create a table from a vector
 pub fn table<T: Tabled>(vec: &Vec<T>) {
     if vec.len() > 0 {
