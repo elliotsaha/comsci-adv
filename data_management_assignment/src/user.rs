@@ -106,6 +106,7 @@ impl UserOperations for UserController {
 
             let mut pass_check = true;
 
+            // if user's input is "exit()" return function and go back to main loop
             if req_exit(&input_name) {
                 return;
             }
