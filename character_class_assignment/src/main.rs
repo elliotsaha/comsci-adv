@@ -24,7 +24,9 @@ impl CharacterTraits for Character {
             level: 0,
         }
     }
-    // Print out the character’s primary or secondary catch phrase based on the value of the phrase_num argument.  If phrase_num is 1, print out the character’s primary catchphrase (phrase1).  If phrase_num is 2, print out the character’s secondary catchphrase (phrase2).
+    // Print out the character’s primary or secondary catch phrase based on the value of the phrase_num argument.
+    // If phrase_num is 1, print out the character’s primary catchphrase (phrase1).
+    // If phrase_num is 2, print out the character’s secondary catchphrase (phrase2).
     fn speak(&self, phrase_num: u8) {
         match phrase_num {
             1 => println!("{}", self.phrase1),
