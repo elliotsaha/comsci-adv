@@ -1,0 +1,46 @@
+// Colors
+$primary-color: #0052ff;
+$secondary-color: #e63946;
+
+// Fonts
+$font: "Inter", sans-serif;
+
+// Spacing
+$space: (
+  "0": 0rem,
+  "1": 0.125rem,
+  "2": 0.25rem,
+  "3": 0.5rem,
+  "4": 0.75rem,
+  "5": 1rem,
+  "6": 1.5rem,
+  "7": 2rem,
+  "8": 2.5rem,
+  "9": 3rem,
+);
+
+$sides: (
+  "t": "top",
+  "r": "right",
+  "b": "bottom",
+  "l": "left",
+);
+
+$spanning: (
+  "y": (
+    "top",
+    "bottom",
+  ),
+  "x": (
+    "right",
+    "left",
+  ),
+);
+
+// Radii
+$radii: (
+  "sm": 0.25rem,
+  "md": 0.5rem,
+  "lg": 1rem,
+  "pill": 20rem,
+);

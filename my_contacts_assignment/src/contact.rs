@@ -4,7 +4,7 @@ use crate::utils::user_input;
 use std::fs;
 use std::fs::OpenOptions;
 // JSON module
-use serde::{Serialize, Deserialize};
+use serde::{Deserialize, Serialize};
 // prelude functions
 use std::io::prelude::*;
 
@@ -18,7 +18,7 @@ struct ContactInfo {
 
 #[derive(Serialize, Deserialize)]
 pub struct Contacts {
-    contact_list: Vec<ContactInfo>
+    contact_list: Vec<ContactInfo>,
 }
 
 // ContactBook methods
@@ -32,7 +32,6 @@ pub trait ContactOperations {
     fn remove_contact(&mut self);
 }
 
-
 impl ContactOperations for Contacts {
     // writes vector as JSON formatted string to contactList.txt
     fn post_to_file(&self) {
@@ -40,17 +39,17 @@ impl ContactOperations for Contacts {
         let serialized = serde_json::to_string(&self.contact_list).unwrap();
         // empty contactList file
         let mut write = OpenOptions::new()
-                .write(true)
-                .truncate(true)
-                .open("contactList.txt")
-                .expect("Unable to open file");
-        
+            .write(true)
+            .truncate(true)
+            .open("contactList.txt")
+            .expect("Unable to open file");
+
         // write vector as string to contactList file
         write
             .write_all(serialized.as_bytes())
             .expect("Unable to write data");
     }
-    
+
     // used as initializer for class (runs with constructor setting contact_list to parsed contents
     // of contactList.txt)
     fn new() -> Self {
@@ -59,9 +58,11 @@ impl ContactOperations for Contacts {
         // serde parses string into vector
         let contacts_vec = serde_json::from_str(&contacts_file).unwrap();
 
-        Contacts { contact_list: contacts_vec }
+        Contacts {
+            contact_list: contacts_vec,
+        }
     }
-    
+
     // create new contact
     fn new_contact(&mut self) {
         let name = user_input("NAME:");
@@ -76,7 +77,7 @@ impl ContactOperations for Contacts {
             return;
         }
 
-        // iterate through contacts vector and print name of each contact 
+        // iterate through contacts vector and print name of each contact
         for contact in &self.contact_list {
             println!("{}", contact.name);
         }
@@ -109,7 +110,11 @@ impl ContactOperations for Contacts {
                 let edit_phone = user_input("NEW PHONE: ");
 
                 // directly edit contact iterable
-                *contact = ContactInfo {name: edit_name, phone: edit_phone, email: edit_email};
+                *contact = ContactInfo {
+                    name: edit_name,
+                    phone: edit_phone,
+                    email: edit_email,
+                };
 
                 return;
             }
@@ -119,13 +124,13 @@ impl ContactOperations for Contacts {
 
     fn remove_contact(&mut self) {
         let name = user_input("NAME OF CONTACT TO REMOVE: ");
-        
+
         let length_before_deletion: usize = self.contact_list.len();
-        
-        // iterates through array and only keeps contact if contact name is not 
-        // equal to name to remove 
+
+        // iterates through array and only keeps contact if contact name is not
+        // equal to name to remove
         self.contact_list.retain(|i| i.name != name);
-        
+
         // if length of vector before deletion is the same as the current length of the vector,
         // then nothing has been removed
         if length_before_deletion > self.contact_list.len() {

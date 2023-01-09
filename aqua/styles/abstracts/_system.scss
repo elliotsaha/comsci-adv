@@ -1,0 +1,42 @@
+// Spacing class generation
+@each $space-key, $space-val in $space {
+  // covers general padding / margin from all sides (e.g. m-9, p-2, etc.)
+  .m-#{$space-key} {
+    margin: $space-val;
+  }
+
+  .p-#{$space-key} {
+    padding: $space-val;
+  }
+
+  // covers specific sides (e.g. mt-2, pb-4, etc.)
+  @each $side-key, $side-val in $sides {
+    .m#{$side-key}-#{$space-key} {
+      margin-#{$side-val}: $space-val;
+    }
+
+    .p#{$side-key}-#{$space-key} {
+      padding-#{$side-val}: $space-val;
+    }
+  }
+
+  // covers spanning sides (e.g. mx-2, py-4, etc.)
+  @each $spanning-key, $spanning-val in $spanning {
+    .m#{$spanning-key}-#{$space-key} {
+      margin-#{nth($spanning-val, 1)}: $space-val; // e.g. margin-right || margin-top
+      margin-#{nth($spanning-val, 2)}: $space-val; // e.g. margin-left || margin-bottom
+    }
+
+    .p#{$spanning-key}-#{$space-key} {
+      padding-#{nth($spanning-val, 1)}: $space-val;
+      padding-#{nth($spanning-val, 2)}: $space-val;
+    }
+  }
+}
+
+// Radii class generation
+@each $radii-key, $radii-val in $radii {
+  .br-#{$radii-key} {
+    border-radius: $radii-val;
+  }
+}
