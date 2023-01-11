@@ -1,5 +1,28 @@
-.btn {
-  color: white;
-  background-color: $primary-color;
-  border: none;
+@mixin btn($color, $text) {
+  @extend .br-sm, .py-3, .px-5;
+  transition: all 0.15s ease-in-out;
+  border: 0;
+  color: $text;
+  &:not([disabled]) {
+    // styles render only when disabled={false}
+    background-color: $color;
+    cursor: pointer;
+    &:hover {
+      background-color: darken($color, 5%);
+    }
+  }
+
+  // styles render when disabled={true}
+  &:disabled {
+    background-color: transparentize($color, 0.35);
+    cursor: not-allowed;
+  }
+}
+
+.btn-primary {
+  @include btn($primary-color, white);
+}
+
+.btn-secondary {
+  @include btn($secondary-color, black);
 }

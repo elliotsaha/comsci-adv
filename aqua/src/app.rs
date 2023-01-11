@@ -5,7 +5,7 @@ use yew::prelude::*;
 pub fn app() -> Html {
     html! {
         <main>
-            <Button>{ "Hello" }</Button>
+            <Button disabled={true}>{ "Hello World" }</Button>
         </main>
     }
 }

@@ -11,4 +11,5 @@ categories = ["gui", "wasm", "web-programming"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
+gloo-console = "0.2.3"
 yew = { version="0.20", features=["csr"] }
