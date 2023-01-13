@@ -14,7 +14,7 @@
 
   // styles render when disabled={true}
   &:disabled {
-    background-color: transparentize($color, 0.35);
+    background-color: transparentize($color, 0.7);
     cursor: not-allowed;
   }
 }
