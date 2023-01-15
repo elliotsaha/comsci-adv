@@ -1,8 +1,17 @@
 // Variables
 @import "abstracts/variables";
-@import "abstracts/system";
+
 // Base
 @import "base/reset";
 @import "base/global";
+
+// Functions
+@import "abstracts/functions";
+
+// Systems
+@import "abstracts/space-system";
+
 // Components
 @import "components/button";
+@import "components/header";
+@import "components/text";

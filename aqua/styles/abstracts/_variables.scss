@@ -1,9 +1,9 @@
 // Colors
 $primary-color: #0052ff;
 $secondary-color: #eeeeee;
-
+$neutral-color: #444444;
 // Fonts
-$font: "Inter", sans-serif;
+$font: "Work Sans", sans-serif;
 
 // Spacing
 $space: (
@@ -43,3 +43,6 @@ $radii: (
   "md": 0.5rem,
   "lg": 1rem,
 );
+
+// Animations
+$default-transition: all 0.15s ease-in-out;

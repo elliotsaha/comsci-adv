@@ -1,0 +1,45 @@
+$headers: (
+  "h1": (
+    // font-size
+    rem(48),
+    // line-height
+    rem(64),
+  ),
+  "h2": (
+    rem(40),
+    rem(56),
+  ),
+  "h3": (
+    rem(32),
+    rem(48),
+  ),
+  "h4": (
+    rem(28),
+    rem(40),
+  ),
+  "h5": (
+    rem(23),
+    rem(26),
+  ),
+  "h6": (
+    rem(19),
+    rem(24),
+  ),
+);
+
+@each $size-name, $size-obj in $headers {
+  .header-#{$size-name} {
+    font-size: nth($size-obj, 1);
+    line-height: nth($size-obj, 2);
+
+    @media screen and (max-width: 900px) {
+      font-size: calc(nth($size-obj, 1) * 0.85);
+      line-height: calc(nth($size-obj, 2) * 0.85);
+    }
+
+    @media screen and (max-width: 600px) {
+      font-size: calc(nth($size-obj, 1) * 0.75);
+      line-height: calc(nth($size-obj, 2) * 0.75);
+    }
+  }
+}

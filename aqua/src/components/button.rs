@@ -1,20 +1,24 @@
 use yew::prelude::*;
-use yew::{classes, function_component, html, Callback, Children, Html, Properties};
+use yew::{
+    classes, function_component, html, virtual_dom::AttrValue, Callback, Children, Html, Properties,
+};
 
 #[derive(Properties, PartialEq, Clone)]
 pub struct ButtonProps {
-    #[prop_or(String::from("primary"))] // default option
-    pub color: String, // "primary" | "secondary"
+    // AttrValue is cheap to clone compared to String
+    #[prop_or(AttrValue::from("primary"))] // default option
+    pub color: AttrValue, // "primary" | "secondary"
     #[prop_or(false)]
     pub disabled: bool, // false | true
     #[prop_or_default]
-    pub on_click: Callback<MouseEvent>,
-    pub children: Children,
+    pub on_click: Callback<MouseEvent>, // function that is called when button is pressed
+    #[prop_or_default]
+    pub children: Children, // text inside of button
 }
 
 #[function_component]
 pub fn Button(props: &ButtonProps) -> Html {
-    // prefix for all css classes
+    // prefix for button css classes
     let prefix = "btn";
 
     // css class list
@@ -29,12 +33,12 @@ pub fn Button(props: &ButtonProps) -> Html {
     let on_click_callback = props.on_click.clone();
 
     html! {
-            <button
-                class={classes!(css)}
-                disabled={props.disabled}
-                onclick={move |e: MouseEvent| on_click_callback.emit(e)}
-            >
-                {props.children.clone()}
-            </button>
+        <button
+            class={classes!(css)}
+            disabled={props.disabled}
+            onclick={move |e: MouseEvent| on_click_callback.emit(e)}
+        >
+            {props.children.clone()}
+        </button>
     }
 }

@@ -1,4 +1,4 @@
-// Spacing class generation
+// Spacing class generation ($space is found in _variables.scss)
 @each $space-key, $space-val in $space {
   // covers general padding / margin from all sides (e.g. m-9, p-2, etc.)
   .m-#{$space-key} {

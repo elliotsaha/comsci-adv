@@ -1,4 +1,4 @@
-use crate::components::Button;
+use crate::components::{Button, Header, Text};
 use gloo_console::log;
 use yew::prelude::*;
 use yew::Callback;
@@ -11,7 +11,8 @@ pub fn app() -> Html {
 
     html! {
         <main>
-            <Button disabled={false} on_click={on_click_handler}>{ "Hello World" }</Button>
+            <Button disabled={false} on_click={&on_click_handler}>{ "Hello World" }</Button>
+            <Text span={true} neutral={true}>{ "Text" }</Text>
         </main>
     }
 }

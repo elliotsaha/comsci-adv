@@ -1,6 +1,6 @@
 @mixin btn($color, $text) {
   @extend .br-sm, .py-3, .px-5;
-  transition: all 0.15s ease-in-out;
+  transition: $default-transition;
   border: 0;
   color: $text;
   &:not([disabled]) {
@@ -9,6 +9,10 @@
     cursor: pointer;
     &:hover {
       background-color: darken($color, 5%);
+    }
+
+    &:active {
+      background-color: darken($color, 10%);
     }
   }
 

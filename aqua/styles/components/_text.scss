@@ -1,0 +1,12 @@
+@mixin txt($color) {
+  font-size: rem(16);
+  color: $color;
+}
+
+.txt-black {
+  @include txt(black);
+}
+
+.txt-neutral {
+  @include txt($neutral-color);
+}
