@@ -1,4 +1,4 @@
-use crate::components::{Button, Header, Text};
+use crate::components::{Button, Grid, Text};
 use gloo_console::log;
 use yew::prelude::*;
 use yew::Callback;
@@ -13,6 +13,20 @@ pub fn app() -> Html {
         <main>
             <Button disabled={false} on_click={&on_click_handler}>{ "Hello World" }</Button>
             <Text span={true} neutral={true}>{ "Text" }</Text>
+            <Grid container={true}>
+                <Grid item={true} cols={6}>
+                    <div>{ "hi" }</div>
+                </Grid>
+                <Grid item={true} cols={6}>
+                    <div>{ "hi" }</div>
+                </Grid>
+                <Grid item={true} cols={6}>
+                    <div>{ "hi" }</div>
+                </Grid>
+                <Grid item={true} cols={6}>
+                    <div>{ "hi" }</div>
+                </Grid>
+            </Grid>
         </main>
     }
 }

@@ -9,3 +9,7 @@ pub use header::Header;
 // Text component
 mod text;
 pub use text::Text;
+
+// Grid component
+mod grid;
+pub use grid::Grid;

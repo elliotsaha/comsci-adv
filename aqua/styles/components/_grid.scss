@@ -1,0 +1,28 @@
+$grid-gutter-sizes: (
+  "none": rem(0),
+  "sm": rem(8),
+  "md": rem(16),
+  "lg": rem(24),
+);
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap; // take only 100% of each row (excess gets put on next row)
+}
+
+.grid-item {
+  display: block;
+}
+
+@for $i from 1 to 13 {
+  .grid-cols-#{$i} {
+    // 12 col grid width system
+    flex-basis: calc($i/12) * 100%;
+  }
+}
+
+@each $gutter-key, $gutter-val in $grid-gutter-sizes {
+  .grid-gutter-#{$gutter-key} {
+    gap: $gutter-val;
+  }
+}
