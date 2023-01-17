@@ -1,0 +1,6 @@
+// breakpoint mixin for simple media queries
+@mixin breakpoint($name) {
+  @media screen and (min-width: map-get($breakpoints, $name )) {
+    @content;
+  }
+}

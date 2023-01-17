@@ -8,6 +8,8 @@ pub struct HeaderProps {
     #[prop_or(String::from("h1"))] // default to h1
     pub size: String, // "h1" | "h2" | "h3" | "h4" | 'h5' | 'h6'
     #[prop_or_default]
+    pub class: String, // custom css class from user
+    #[prop_or_default]
     pub children: Children,
 }
 
@@ -21,7 +23,7 @@ pub fn Header(props: &HeaderProps) -> Html {
 
     html! {
         // dynamic tag name (tag name = props.size)
-        <@{props.size.clone()} class={classes!(css)}>
+        <@{props.size.clone()} class={classes!(css, &props.class)}>
             {props.children.clone()}
         </@>
     }

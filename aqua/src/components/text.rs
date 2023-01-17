@@ -9,6 +9,8 @@ pub struct TextProps {
     #[prop_or(false)]
     pub span: bool,
     #[prop_or_default]
+    pub class: String, // custom css class from user
+    #[prop_or_default]
     pub children: Children,
 }
 
@@ -27,6 +29,6 @@ pub fn Text(props: &TextProps) -> Html {
     let tag = if props.span { "span" } else { "p" };
 
     html! {
-        <@{tag} class={classes!(css)}>{props.children.clone()}</@>
+        <@{tag} class={classes!(css, &props.class)}>{props.children.clone()}</@>
     }
 }

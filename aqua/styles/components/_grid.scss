@@ -5,6 +5,10 @@ $grid-gutter-sizes: (
   "lg": rem(24),
 );
 
+// flexbox properties
+$justifyContent: (flex-start, flex-end, center, space-between);
+$alignItems: (flex-start, flex-end, center);
+
 .grid-container {
   display: flex;
   flex-wrap: wrap; // take only 100% of each row (excess gets put on next row)
@@ -15,14 +19,60 @@ $grid-gutter-sizes: (
 }
 
 @for $i from 1 to 13 {
-  .grid-cols-#{$i} {
+  .grid-cols-xs-#{$i} > * {
     // 12 col grid width system
     flex-basis: calc($i/12) * 100%;
   }
 }
 
+// flex-basis defines the size at which one cell takes
+// every breakpoint has its own class so that flex grid component is responsive
+@include breakpoint("sm") {
+  @for $i from 1 to 13 {
+    .grid-cols-sm-#{$i} > * {
+      flex-basis: calc($i/12) * 100%;
+    }
+  }
+}
+
+@include breakpoint("md") {
+  @for $i from 1 to 13 {
+    .grid-cols-md-#{$i} > * {
+      flex-basis: calc($i/12) * 100%;
+    }
+  }
+}
+
+@include breakpoint("lg") {
+  @for $i from 1 to 13 {
+    .grid-cols-lg-#{$i} > * {
+      flex-basis: calc($i/12) * 100%;
+    }
+  }
+}
+
+// negative margin css doesn't affect flex cells, but the "gap" prop does which destroys the 12 col grid system
 @each $gutter-key, $gutter-val in $grid-gutter-sizes {
   .grid-gutter-#{$gutter-key} {
-    gap: $gutter-val;
+    margin: -$gutter-val;
+  }
+}
+
+@each $gutter-key, $gutter-val in $grid-gutter-sizes {
+  .grid-gutter-#{$gutter-key} > * {
+    padding: $gutter-val;
+  }
+}
+
+// flexbox properties for container
+@each $value in $justifyContent {
+  .grid-justify-content-#{$value} {
+    justify-content: $value;
+  }
+}
+
+@each $value in $alignItems {
+  .grid-align-items-#{$value} {
+    align-items: $value;
   }
 }

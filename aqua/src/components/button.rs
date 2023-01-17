@@ -13,6 +13,8 @@ pub struct ButtonProps {
     #[prop_or_default]
     pub on_click: Callback<MouseEvent>, // function that is called when button is pressed
     #[prop_or_default]
+    pub class: String, // custom css class from user
+    #[prop_or_default]
     pub children: Children, // text inside of button
 }
 
@@ -34,7 +36,7 @@ pub fn Button(props: &ButtonProps) -> Html {
 
     html! {
         <button
-            class={classes!(css)}
+            class={classes!(css, &props.class)}
             disabled={props.disabled}
             onclick={move |e: MouseEvent| on_click_callback.emit(e)}
         >

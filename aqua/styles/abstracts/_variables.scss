@@ -5,6 +5,12 @@ $neutral-color: #444444;
 // Fonts
 $font: "Work Sans", sans-serif;
 
+// breakpoints
+$breakpoints: (
+  "sm": 600px,
+  "md": 960px,
+  "lg": 1280px,
+);
 // Spacing
 $space: (
   "0": 0rem,
