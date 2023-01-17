@@ -13,3 +13,4 @@ categories = ["gui", "wasm", "web-programming"]
 [dependencies]
 gloo-console = "0.2.3"
 yew = { version="0.20", features=["csr"] }
+yew-router = "0.17"

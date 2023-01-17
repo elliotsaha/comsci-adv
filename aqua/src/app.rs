@@ -1,24 +1,27 @@
-use crate::components::{Button, Grid, Text};
-use gloo_console::log;
+use crate::pages::{About, Home};
 use yew::prelude::*;
-use yew::Callback;
+use yew_router::prelude::*;
+
+#[derive(Clone, Routable, PartialEq)]
+enum Route {
+    #[at("/")]
+    Home,
+    #[at("/about")]
+    About,
+}
+
+fn switch(route: Route) -> Html {
+    match route {
+        Route::Home => html! { <Home /> },
+        Route::About => html! { <About /> },
+    }
+}
 
 #[function_component(App)]
 pub fn app() -> Html {
-    let on_click_handler = Callback::from(move |_: MouseEvent| {
-        log!("Hello");
-    });
-
     html! {
-        <main>
-            <Button disabled={false} on_click={&on_click_handler}>{ "Hello World" }</Button>
-            <Text span={true} neutral={true}>{ "Text" }</Text>
-            <Grid container={true} xs={12} sm={6} md={3} gutter="none">
-                <Grid>{"hi"}</Grid>
-                <Grid>{"hi"}</Grid>
-                <Grid>{"hi"}</Grid>
-                <Grid>{"hi"}</Grid>
-            </Grid>
-        </main>
+        <BrowserRouter>
+            <Switch<Route> render={switch} />
+        </BrowserRouter>
     }
 }
