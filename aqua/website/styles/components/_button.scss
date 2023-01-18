@@ -1,5 +1,6 @@
 @mixin btn($color, $text) {
-  @extend .br-sm, .py-3, .px-5;
+  @extend .br-sm, .py-5, .px-6;
+  font-size: rem(16);
   transition: $default-transition;
   border: 0;
   color: $text;

@@ -13,3 +13,7 @@ pub use text::Text;
 // Grid component
 mod grid;
 pub use grid::Grid;
+
+// Navbar component
+mod navbar;
+pub use navbar::Navbar;

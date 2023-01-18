@@ -1,0 +1,18 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background: white;
+  padding-left: 6.5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.navbar-link {
+  color: $primary-color;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 3rem;
+}

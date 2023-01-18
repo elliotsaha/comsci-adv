@@ -18,12 +18,14 @@ pub struct ResponseStructure<T> {
 
 pub struct ApiResponse {}
 
+pub type ApiRes<T> = Json<ResponseStructure<T>>;
+
 pub trait ApiStatuses {
     fn log_handler<T>(response: &ResponseStructure<T>) -> Result<(), Box<dyn Error>>;
     fn send_log<T>(response: &ResponseStructure<T>);
-    fn success<T>(data: T) -> Json<ResponseStructure<T>>;
-    fn error<T>(data: T) -> Json<ResponseStructure<T>>;
-    fn not_found<T>(data: T) -> Json<ResponseStructure<T>>;
+    fn success<T>(data: T) -> ApiRes<T>;
+    fn error<T>(data: T) -> ApiRes<T>;
+    fn not_found<T>(data: T) -> ApiRes<T>;
 }
 
 impl ApiStatuses for ApiResponse {
@@ -37,7 +39,7 @@ impl ApiStatuses for ApiResponse {
         // write to log file
         let date = Local::now();
 
-        let addition = formatdoc! {"
+        let log_addition = formatdoc! {"
               TIME: {time}
               STATUS: {status}
               STATUS_CODE: {status_code}
@@ -48,7 +50,7 @@ impl ApiStatuses for ApiResponse {
         status_code = response.status.to_string()
         };
 
-        write!(log_file, "{addition}")?;
+        write!(log_file, "{log_addition}")?;
 
         Ok(())
     }
@@ -59,7 +61,7 @@ impl ApiStatuses for ApiResponse {
             println!("[Internal API Issue]: logs not being sent to log.txt");
         }
     }
-    fn success<T>(data: T) -> Json<ResponseStructure<T>> {
+    fn success<T>(data: T) -> ApiRes<T> {
         let res = ResponseStructure {
             status: 200,
             name: String::from("Success"),
@@ -69,7 +71,7 @@ impl ApiStatuses for ApiResponse {
         Self::send_log(&res);
         Json(res)
     }
-    fn error<T>(data: T) -> Json<ResponseStructure<T>> {
+    fn error<T>(data: T) -> ApiRes<T> {
         let res = ResponseStructure {
             status: 500,
             name: String::from("Internal Server Error"),
@@ -79,7 +81,7 @@ impl ApiStatuses for ApiResponse {
         Self::send_log(&res);
         Json(res)
     }
-    fn not_found<T>(data: T) -> Json<ResponseStructure<T>> {
+    fn not_found<T>(data: T) -> ApiRes<T> {
         let res = ResponseStructure {
             status: 404,
             name: String::from("Not Found"),

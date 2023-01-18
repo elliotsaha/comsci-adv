@@ -1,22 +1,21 @@
-use utils::{ApiResponse, ApiStatuses, ResponseStructure};
+pub mod errors;
 pub mod utils;
+
+use errors::{internal_err, not_found};
+use utils::{ApiRes, ApiResponse, ApiStatuses};
 
 #[macro_use]
 extern crate rocket;
-use rocket::serde::{json::Json, Serialize};
-
-#[derive(Serialize)]
-struct Person {
-    name: String,
-    age: u8,
-}
+extern crate reqwest;
 
 #[get("/")]
-fn index() -> Json<ResponseStructure<String>> {
-    ApiResponse::error(String::from("Hello"))
+fn index() -> ApiRes<String> {
+    ApiResponse::success(String::from("Entry point"))
 }
 
 #[launch]
 fn rocket() -> _ {
-    rocket::build().mount("/", routes![index])
+    rocket::build()
+        .register("/", catchers![not_found, internal_err])
+        .mount("/api", routes![index])
 }

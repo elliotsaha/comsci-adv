@@ -301,7 +301,7 @@ select {
   margin-bottom: 0.5rem;
 }
 
-.py-3, .btn-secondary, .btn-primary {
+.py-3 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
@@ -421,7 +421,7 @@ select {
   margin-bottom: 1rem;
 }
 
-.py-5 {
+.py-5, .btn-secondary, .btn-primary {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -431,7 +431,7 @@ select {
   margin-left: 1rem;
 }
 
-.px-5, .btn-secondary, .btn-primary {
+.px-5 {
   padding-right: 1rem;
   padding-left: 1rem;
 }
@@ -491,7 +491,7 @@ select {
   margin-left: 1.5rem;
 }
 
-.px-6 {
+.px-6, .btn-secondary, .btn-primary {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
 }
@@ -689,6 +689,7 @@ select {
 }
 
 .btn-primary {
+  font-size: 1rem;
   transition: all 0.15s ease-in-out;
   border: 0;
   color: white;
@@ -709,6 +710,7 @@ select {
 }
 
 .btn-secondary {
+  font-size: 1rem;
   transition: all 0.15s ease-in-out;
   border: 0;
   color: black;
@@ -729,19 +731,19 @@ select {
 }
 
 .header-h1 {
-  font-size: 3rem;
-  line-height: 4rem;
+  font-size: 4.375rem;
+  line-height: 5rem;
 }
 @media screen and (max-width: 900px) {
   .header-h1 {
-    font-size: calc(3rem * 0.85);
-    line-height: calc(4rem * 0.85);
+    font-size: calc(4.375rem * 0.85);
+    line-height: calc(5rem * 0.85);
   }
 }
 @media screen and (max-width: 600px) {
   .header-h1 {
-    font-size: calc(3rem * 0.75);
-    line-height: calc(4rem * 0.75);
+    font-size: calc(4.375rem * 0.75);
+    line-height: calc(5rem * 0.75);
   }
 }
 
@@ -1102,4 +1104,71 @@ select {
 
 .grid-align-items-center {
   align-items: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background: white;
+  padding-left: 6.5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.navbar-link {
+  color: #0052ff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 3rem;
+}
+
+.home-grid-container-banner {
+  height: 70vh;
+}
+
+.home-banner {
+  margin: 3rem;
+}
+
+.home-img {
+  border-radius: 1rem;
+}
+
+.home-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.home-card {
+  display: flex;
+  flex-direction: column;
+  color: #0052ff;
+  width: 22.5rem;
+  padding: 2rem;
+  border: 2px solid #0052ff;
+}
+
+.home-card-header {
+  margin-top: 0rem;
+  margin-bottom: 0.25rem;
+}
+
+.home-card-text {
+  color: #0052ff;
+}
+
+.home-card-title-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 45rem;
+  margin-left: auto;
+  margin-right: auto;
 }
