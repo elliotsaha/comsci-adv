@@ -1,3 +1,4 @@
+extern crate chrono;
 // used for pretty printing multiple lines of text
 use indoc::formatdoc;
 use rocket::serde::{json::Json, Serialize};
@@ -5,8 +6,7 @@ use std::error::Error;
 use std::fmt::Debug;
 use std::fs::OpenOptions;
 use std::io::Write;
-extern crate chrono;
-
+// used for time operations
 use chrono::Local;
 
 #[derive(Serialize, Debug)]
@@ -29,6 +29,7 @@ pub trait ApiStatuses {
 }
 
 impl ApiStatuses for ApiResponse {
+    // static method that writes log to log.txt file
     fn log_handler<T>(response: &ResponseStructure<T>) -> Result<(), Box<dyn Error>> {
         let filename = "log.txt";
         let mut log_file = OpenOptions::new()
@@ -36,7 +37,7 @@ impl ApiStatuses for ApiResponse {
             .append(true)
             .open(filename)
             .unwrap();
-        // write to log file
+
         let date = Local::now();
 
         let log_addition = formatdoc! {"
@@ -45,6 +46,7 @@ impl ApiStatuses for ApiResponse {
               STATUS_CODE: {status_code}
               -------------------------
         ",
+        // year month date - hour minute second
         time = date.format("%Y-%m-%d - %H:%M:%S"),
         status = response.name.to_string(),
         status_code = response.status.to_string()
@@ -54,6 +56,8 @@ impl ApiStatuses for ApiResponse {
 
         Ok(())
     }
+
+    // static method that takes care of printing log errors and is used by api response code methods
     fn send_log<T>(response: &ResponseStructure<T>) {
         let log_req = Self::log_handler(response);
 
@@ -61,6 +65,7 @@ impl ApiStatuses for ApiResponse {
             println!("[Internal API Issue]: logs not being sent to log.txt");
         }
     }
+    // API STATUS CODE METHODS
     fn success<T>(data: T) -> ApiRes<T> {
         let res = ResponseStructure {
             status: 200,

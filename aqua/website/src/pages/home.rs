@@ -1,5 +1,5 @@
 use crate::app::Route;
-use crate::components::{Button, Grid, Header, Text};
+use crate::components::{Button, Card, Grid, Header, Text};
 use yew::prelude::*;
 use yew_router::prelude::*;
 
@@ -48,12 +48,7 @@ pub fn Home() -> Html {
                 {
                     card_titles.into_iter().map(|title| {
                         html! {
-                            <div class="home-card br-lg">
-                                <Header size="h6" class="home-card-header">{title}</Header>
-                                <Text class="home-card-text">
-                                        { "Lorem ipsum dolor sit amet, consectetur adipiscing elit." }
-                                </Text>
-                            </div>
+                            <Card title={title} />
                         }
                     }).collect::<Html>()
                 }

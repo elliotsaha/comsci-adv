@@ -17,3 +17,7 @@ pub use grid::Grid;
 // Navbar component
 mod navbar;
 pub use navbar::Navbar;
+
+// Card component
+mod card;
+pub use card::Card;
