@@ -1,7 +1,9 @@
+use utils::{ApiResponse, ApiStatuses, ResponseStructure};
+pub mod utils;
+
 #[macro_use]
 extern crate rocket;
 use rocket::serde::{json::Json, Serialize};
-use serde_json::json;
 
 #[derive(Serialize)]
 struct Person {
@@ -10,12 +12,8 @@ struct Person {
 }
 
 #[get("/")]
-fn index() -> Json<Person> {
-    let person = Person {
-        name: String::from("Hello World"),
-        age: 12,
-    };
-    Json(person)
+fn index() -> Json<ResponseStructure<String>> {
+    ApiResponse::error(String::from("Hello"))
 }
 
 #[launch]
